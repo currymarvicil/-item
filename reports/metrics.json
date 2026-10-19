@@ -1,0 +1,1696 @@
+{
+  "source": {
+    "path": "data/maintenance_tasks.csv",
+    "sha256": "455a57d85005c2d367a9eaa50f89406273573dfeed830d59fba82a500a0b7b54",
+    "bytes": 106998,
+    "local_date_min": "2026-09-01",
+    "local_date_max": "2026-09-07"
+  },
+  "quality": {
+    "raw_rows": 1163,
+    "exact_duplicates_removed": 55,
+    "unique_task_ids_raw": 1108,
+    "conflicting_task_ids": 0,
+    "quarantined_unique_rows": 0,
+    "invalid_reasons": {},
+    "usable_unique_tasks": 1108,
+    "labeled_tasks": 1058,
+    "missing_outcomes": 50,
+    "run_hours_over_24": 1064,
+    "raw_missing_outcomes": 51
+  },
+  "overall": {
+    "n": 1108,
+    "labeled": 1058,
+    "missing": 50,
+    "failures": 153,
+    "failure_rate": 0.1446124763705104,
+    "failure_rate_wilson95": [
+      0.12470464796648692,
+      0.1670916990746347
+    ]
+  },
+  "assumptions": {
+    "wasted_trip_labor_hours": 120,
+    "verification_labor_hours": 15,
+    "q": "unknown; scenario parameter, not measured",
+    "training_selection_q": 1,
+    "no_synthetic_observations": true
+  },
+  "split_date_local": "2026-09-05",
+  "selected_rule": {
+    "family": "age",
+    "threshold": 15,
+    "zone": null,
+    "device": null
+  },
+  "candidate_count": 198,
+  "equivalent_age_thresholds_train": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "train": {
+    "n": 584,
+    "failures": 90,
+    "checks": 178,
+    "caught_failures": 75,
+    "checked_successes": 103,
+    "unchecked_failures": 15,
+    "unchecked_successes": 391,
+    "check_rate": 0.3047945205479452,
+    "precision": 0.42134831460674155,
+    "precision_wilson95": [
+      0.3512226195799842,
+      0.4947970935174036
+    ],
+    "failure_recall": 0.8333333333333334,
+    "baseline_hours": 10800,
+    "verification_hours": 2670,
+    "q_assumed": 1.0,
+    "avoided_wasted_hours": 9000.0,
+    "residual_wasted_hours": 1800.0,
+    "total_hours": 4470.0,
+    "net_saved_hours": 6330.0,
+    "saved_fraction": 0.5861111111111111,
+    "break_even_q": 0.2966666666666667
+  },
+  "holdout": {
+    "n": 474,
+    "failures": 63,
+    "checks": 133,
+    "caught_failures": 48,
+    "checked_successes": 85,
+    "unchecked_failures": 15,
+    "unchecked_successes": 326,
+    "check_rate": 0.2805907172995781,
+    "precision": 0.3609022556390977,
+    "precision_wilson95": [
+      0.28424538924124404,
+      0.445368718070475
+    ],
+    "failure_recall": 0.7619047619047619,
+    "baseline_hours": 7560,
+    "verification_hours": 1995,
+    "q_assumed": 1.0,
+    "avoided_wasted_hours": 5760.0,
+    "residual_wasted_hours": 1800.0,
+    "total_hours": 3795.0,
+    "net_saved_hours": 3765.0,
+    "saved_fraction": 0.498015873015873,
+    "break_even_q": 0.3463541666666667
+  },
+  "full_descriptive": {
+    "n": 1058,
+    "failures": 153,
+    "checks": 311,
+    "caught_failures": 123,
+    "checked_successes": 188,
+    "unchecked_failures": 30,
+    "unchecked_successes": 717,
+    "check_rate": 0.2939508506616257,
+    "precision": 0.3954983922829582,
+    "precision_wilson95": [
+      0.34274851244545823,
+      0.4507983722517752
+    ],
+    "failure_recall": 0.803921568627451,
+    "baseline_hours": 18360,
+    "verification_hours": 4665,
+    "q_assumed": 1.0,
+    "avoided_wasted_hours": 14760.0,
+    "residual_wasted_hours": 3600.0,
+    "total_hours": 8265.0,
+    "net_saved_hours": 10095.0,
+    "saved_fraction": 0.5498366013071896,
+    "break_even_q": 0.3160569105691057
+  },
+  "selected_group_full": {
+    "n": 311,
+    "labeled": 311,
+    "missing": 0,
+    "failures": 123,
+    "failure_rate": 0.3954983922829582,
+    "failure_rate_wilson95": [
+      0.34274851244545823,
+      0.4507983722517752
+    ]
+  },
+  "unselected_group_full": {
+    "n": 747,
+    "labeled": 747,
+    "missing": 0,
+    "failures": 30,
+    "failure_rate": 0.040160642570281124,
+    "failure_rate_wilson95": [
+      0.028274133548847682,
+      0.056752416424786484
+    ]
+  },
+  "population_bounds_full": {
+    "n": 1108,
+    "known_outcomes": 1058,
+    "unknown_outcomes": 50,
+    "checks_including_unknown": 326,
+    "unknown_checks": 15,
+    "verification_hours_including_unknown": 4890,
+    "conservative_break_even_q": 0.3313008130081301,
+    "net_saved_hours_bounds": [
+      9870.0,
+      11670.0
+    ],
+    "observed_failure_rate_bounds": [
+      0.13808664259927797,
+      0.1832129963898917
+    ]
+  },
+  "population_bounds_holdout": {
+    "n": 500,
+    "known_outcomes": 474,
+    "unknown_outcomes": 26,
+    "checks_including_unknown": 140,
+    "unknown_checks": 7,
+    "verification_hours_including_unknown": 2100,
+    "conservative_break_even_q": 0.3645833333333333,
+    "net_saved_hours_bounds": [
+      3660.0,
+      4500.0
+    ],
+    "observed_failure_rate_bounds": [
+      0.126,
+      0.178
+    ]
+  },
+  "age_bins": [
+    {
+      "group": "0-5",
+      "n": 264,
+      "labeled": 249,
+      "missing": 15,
+      "failures": 8,
+      "failure_rate": 0.0321285140562249,
+      "failure_rate_wilson95": [
+        0.016368192811827286,
+        0.062105720893776487
+      ]
+    },
+    {
+      "group": "5-10",
+      "n": 301,
+      "labeled": 285,
+      "missing": 16,
+      "failures": 16,
+      "failure_rate": 0.056140350877192984,
+      "failure_rate_wilson95": [
+        0.034848422932883864,
+        0.0892385380145875
+      ]
+    },
+    {
+      "group": "10-15",
+      "n": 217,
+      "labeled": 213,
+      "missing": 4,
+      "failures": 6,
+      "failure_rate": 0.028169014084507043,
+      "failure_rate_wilson95": [
+        0.012972704478212662,
+        0.0600827845728613
+      ]
+    },
+    {
+      "group": "15-20",
+      "n": 16,
+      "labeled": 16,
+      "missing": 0,
+      "failures": 5,
+      "failure_rate": 0.3125,
+      "failure_rate_wilson95": [
+        0.14164643854782039,
+        0.5559564416525933
+      ]
+    },
+    {
+      "group": "20-30",
+      "n": 67,
+      "labeled": 65,
+      "missing": 2,
+      "failures": 30,
+      "failure_rate": 0.46153846153846156,
+      "failure_rate_wilson95": [
+        0.34590334122804217,
+        0.5814660073352547
+      ]
+    },
+    {
+      "group": "30-45",
+      "n": 93,
+      "labeled": 89,
+      "missing": 4,
+      "failures": 34,
+      "failure_rate": 0.38202247191011235,
+      "failure_rate_wilson95": [
+        0.2879491474996802,
+        0.4858588013762895
+      ]
+    },
+    {
+      "group": "45-60",
+      "n": 114,
+      "labeled": 107,
+      "missing": 7,
+      "failures": 39,
+      "failure_rate": 0.3644859813084112,
+      "failure_rate_wilson95": [
+        0.27946117772615114,
+        0.4589038680920145
+      ]
+    },
+    {
+      "group": "60+",
+      "n": 36,
+      "labeled": 34,
+      "missing": 2,
+      "failures": 15,
+      "failure_rate": 0.4411764705882353,
+      "failure_rate_wilson95": [
+        0.2888348224624216,
+        0.6054610074379694
+      ]
+    }
+  ],
+  "zone_cross": [
+    {
+      "group": "一号机组区",
+      "fresh_n": 147,
+      "fresh_failures": 5,
+      "fresh_rate": 0.034013605442176874,
+      "fresh_ci": [
+        0.014614424794915794,
+        0.07714720976437026
+      ],
+      "stale_n": 67,
+      "stale_failures": 30,
+      "stale_rate": 0.44776119402985076,
+      "stale_ci": [
+        0.334763933612968,
+        0.5664238719950783
+      ]
+    },
+    {
+      "group": "二号机组区",
+      "fresh_n": 138,
+      "fresh_failures": 4,
+      "fresh_rate": 0.028985507246376812,
+      "fresh_ci": [
+        0.011328415842255957,
+        0.07215534778473306
+      ],
+      "stale_n": 55,
+      "stale_failures": 30,
+      "stale_rate": 0.5454545454545454,
+      "stale_ci": [
+        0.41522690241861226,
+        0.6697471974798342
+      ]
+    },
+    {
+      "group": "水处理车间",
+      "fresh_n": 152,
+      "fresh_failures": 4,
+      "fresh_rate": 0.02631578947368421,
+      "fresh_ci": [
+        0.010280235864764092,
+        0.06570377320639395
+      ],
+      "stale_n": 59,
+      "stale_failures": 27,
+      "stale_rate": 0.4576271186440678,
+      "stale_ci": [
+        0.3370130585185591,
+        0.5834216338989654
+      ]
+    },
+    {
+      "group": "烟气净化区",
+      "fresh_n": 160,
+      "fresh_failures": 12,
+      "fresh_rate": 0.075,
+      "fresh_ci": [
+        0.0434209968551096,
+        0.1265082690406698
+      ],
+      "stale_n": 72,
+      "stale_failures": 8,
+      "stale_rate": 0.1111111111111111,
+      "stale_ci": [
+        0.057388196349493464,
+        0.20422938233664037
+      ]
+    },
+    {
+      "group": "输煤转运站",
+      "fresh_n": 150,
+      "fresh_failures": 5,
+      "fresh_rate": 0.03333333333333333,
+      "fresh_ci": [
+        0.01432043189809255,
+        0.07565179617877894
+      ],
+      "stale_n": 58,
+      "stale_failures": 28,
+      "stale_rate": 0.4827586206896552,
+      "stale_ci": [
+        0.3592818542405501,
+        0.6083773821659054
+      ]
+    }
+  ],
+  "device_cross": [
+    {
+      "group": "变频空压机",
+      "fresh_n": 69,
+      "fresh_failures": 0,
+      "fresh_rate": 0.0,
+      "fresh_ci": [
+        3.469446951953614e-18,
+        0.05273725818905173
+      ],
+      "stale_n": 37,
+      "stale_failures": 17,
+      "stale_rate": 0.4594594594594595,
+      "stale_ci": [
+        0.3103856980437303,
+        0.6161595310782052
+      ]
+    },
+    {
+      "group": "布袋除尘风机",
+      "fresh_n": 72,
+      "fresh_failures": 1,
+      "fresh_rate": 0.013888888888888888,
+      "fresh_ci": [
+        0.002455951882905767,
+        0.07456602147476155
+      ],
+      "stale_n": 26,
+      "stale_failures": 11,
+      "stale_rate": 0.4230769230769231,
+      "stale_ci": [
+        0.2554444331365656,
+        0.6105138625340828
+      ]
+    },
+    {
+      "group": "液压推料机",
+      "fresh_n": 63,
+      "fresh_failures": 3,
+      "fresh_rate": 0.047619047619047616,
+      "fresh_ci": [
+        0.0163261688679956,
+        0.13090967837906073
+      ],
+      "stale_n": 33,
+      "stale_failures": 13,
+      "stale_rate": 0.3939393939393939,
+      "stale_ci": [
+        0.2468310743447709,
+        0.5631655918005977
+      ]
+    },
+    {
+      "group": "炉水循环泵",
+      "fresh_n": 70,
+      "fresh_failures": 2,
+      "fresh_rate": 0.02857142857142857,
+      "fresh_ci": [
+        0.007870611945441225,
+        0.09832256118423902
+      ],
+      "stale_n": 30,
+      "stale_failures": 13,
+      "stale_rate": 0.43333333333333335,
+      "stale_ci": [
+        0.2737748557646652,
+        0.6080269299918639
+      ]
+    },
+    {
+      "group": "球磨碎煤机",
+      "fresh_n": 83,
+      "fresh_failures": 3,
+      "fresh_rate": 0.03614457831325301,
+      "fresh_ci": [
+        0.012367803271745428,
+        0.10095892976960381
+      ],
+      "stale_n": 28,
+      "stale_failures": 12,
+      "stale_rate": 0.42857142857142855,
+      "stale_ci": [
+        0.26508547124123694,
+        0.6092921437253123
+      ]
+    },
+    {
+      "group": "电动调节阀",
+      "fresh_n": 80,
+      "fresh_failures": 2,
+      "fresh_rate": 0.025,
+      "fresh_ci": [
+        0.006882893202970648,
+        0.0866443298557801
+      ],
+      "stale_n": 26,
+      "stale_failures": 8,
+      "stale_rate": 0.3076923076923077,
+      "stale_ci": [
+        0.16501315595463767,
+        0.4998825832219837
+      ]
+    },
+    {
+      "group": "离心给水泵",
+      "fresh_n": 80,
+      "fresh_failures": 5,
+      "fresh_rate": 0.0625,
+      "fresh_ci": [
+        0.026989375670841982,
+        0.13810148767274424
+      ],
+      "stale_n": 35,
+      "stale_failures": 14,
+      "stale_rate": 0.4,
+      "stale_ci": [
+        0.2555072885938059,
+        0.5642729098710749
+      ]
+    },
+    {
+      "group": "耐磨排浆阀",
+      "fresh_n": 61,
+      "fresh_failures": 2,
+      "fresh_rate": 0.03278688524590164,
+      "fresh_ci": [
+        0.009037890398362391,
+        0.11189490419495614
+      ],
+      "stale_n": 34,
+      "stale_failures": 13,
+      "stale_rate": 0.38235294117647056,
+      "stale_ci": [
+        0.23900183324508897,
+        0.549589826555693
+      ]
+    },
+    {
+      "group": "重型皮带机",
+      "fresh_n": 84,
+      "fresh_failures": 5,
+      "fresh_rate": 0.05952380952380952,
+      "fresh_ci": [
+        0.025690561091495437,
+        0.13188262822618113
+      ],
+      "stale_n": 31,
+      "stale_failures": 10,
+      "stale_rate": 0.3225806451612903,
+      "stale_ci": [
+        0.18569426566359176,
+        0.49858990691914357
+      ]
+    },
+    {
+      "group": "高压引风机",
+      "fresh_n": 85,
+      "fresh_failures": 7,
+      "fresh_rate": 0.08235294117647059,
+      "fresh_ci": [
+        0.040463723499160636,
+        0.16035984533375294
+      ],
+      "stale_n": 31,
+      "stale_failures": 12,
+      "stale_rate": 0.3870967741935484,
+      "stale_ci": [
+        0.23733101420380254,
+        0.5617589138033927
+      ]
+    }
+  ],
+  "health_cross": [
+    {
+      "group": "0-9",
+      "fresh_n": 252,
+      "fresh_failures": 13,
+      "fresh_rate": 0.051587301587301584,
+      "fresh_ci": [
+        0.03039251236493545,
+        0.08624792174706843
+      ],
+      "stale_n": 111,
+      "stale_failures": 53,
+      "stale_rate": 0.4774774774774775,
+      "stale_ci": [
+        0.3868737253708906,
+        0.5695879910567399
+      ]
+    },
+    {
+      "group": "10-19",
+      "fresh_n": 223,
+      "fresh_failures": 6,
+      "fresh_rate": 0.026905829596412557,
+      "fresh_ci": [
+        0.012388259565339909,
+        0.05744667670711609
+      ],
+      "stale_n": 103,
+      "stale_failures": 32,
+      "stale_rate": 0.3106796116504854,
+      "stale_ci": [
+        0.22947336321624373,
+        0.40549979766644834
+      ]
+    },
+    {
+      "group": "20-29",
+      "fresh_n": 244,
+      "fresh_failures": 10,
+      "fresh_rate": 0.040983606557377046,
+      "fresh_ci": [
+        0.022411332105928147,
+        0.07378507883411037
+      ],
+      "stale_n": 87,
+      "stale_failures": 34,
+      "stale_rate": 0.39080459770114945,
+      "stale_ci": [
+        0.2949782935799389,
+        0.49586610448831725
+      ]
+    },
+    {
+      "group": "30-39",
+      "fresh_n": 28,
+      "fresh_failures": 1,
+      "fresh_rate": 0.03571428571428571,
+      "fresh_ci": [
+        0.0063325198490377516,
+        0.1771219774335332
+      ],
+      "stale_n": 10,
+      "stale_failures": 4,
+      "stale_rate": 0.4,
+      "stale_ci": [
+        0.16818032970623614,
+        0.6873262302663417
+      ]
+    }
+  ],
+  "by_day": [
+    {
+      "group": "2026-09-01",
+      "n": 162,
+      "labeled": 155,
+      "missing": 7,
+      "failures": 27,
+      "failure_rate": 0.17419354838709677,
+      "failure_rate_wilson95": [
+        0.12256670695133356,
+        0.2415791479793217
+      ]
+    },
+    {
+      "group": "2026-09-02",
+      "n": 142,
+      "labeled": 138,
+      "missing": 4,
+      "failures": 18,
+      "failure_rate": 0.13043478260869565,
+      "failure_rate_wilson95": [
+        0.0841235969692246,
+        0.19676366372272058
+      ]
+    },
+    {
+      "group": "2026-09-03",
+      "n": 156,
+      "labeled": 148,
+      "missing": 8,
+      "failures": 24,
+      "failure_rate": 0.16216216216216217,
+      "failure_rate_wilson95": [
+        0.1114610940654237,
+        0.22995724598037653
+      ]
+    },
+    {
+      "group": "2026-09-04",
+      "n": 148,
+      "labeled": 143,
+      "missing": 5,
+      "failures": 21,
+      "failure_rate": 0.14685314685314685,
+      "failure_rate_wilson95": [
+        0.09810081645768931,
+        0.21408253549790818
+      ]
+    },
+    {
+      "group": "2026-09-05",
+      "n": 168,
+      "labeled": 162,
+      "missing": 6,
+      "failures": 23,
+      "failure_rate": 0.1419753086419753,
+      "failure_rate_wilson95": [
+        0.09650495969871556,
+        0.20403182510237647
+      ]
+    },
+    {
+      "group": "2026-09-06",
+      "n": 179,
+      "labeled": 171,
+      "missing": 8,
+      "failures": 29,
+      "failure_rate": 0.1695906432748538,
+      "failure_rate_wilson95": [
+        0.12075302396653986,
+        0.23294717527576142
+      ]
+    },
+    {
+      "group": "2026-09-07",
+      "n": 153,
+      "labeled": 141,
+      "missing": 12,
+      "failures": 11,
+      "failure_rate": 0.07801418439716312,
+      "failure_rate_wilson95": [
+        0.04411812731402492,
+        0.13429390354438042
+      ]
+    }
+  ],
+  "policy_by_day": [
+    {
+      "date": "2026-09-01",
+      "n": 155,
+      "failures": 27,
+      "checks": 50,
+      "caught_failures": 21,
+      "checked_successes": 29,
+      "unchecked_failures": 6,
+      "unchecked_successes": 99,
+      "check_rate": 0.3225806451612903,
+      "precision": 0.42,
+      "precision_wilson95": [
+        0.2937500335471198,
+        0.5576655823142176
+      ],
+      "failure_recall": 0.7777777777777778,
+      "baseline_hours": 3240,
+      "verification_hours": 750,
+      "q_assumed": 1.0,
+      "avoided_wasted_hours": 2520.0,
+      "residual_wasted_hours": 720.0,
+      "total_hours": 1470.0,
+      "net_saved_hours": 1770.0,
+      "saved_fraction": 0.5462962962962963,
+      "break_even_q": 0.2976190476190476
+    },
+    {
+      "date": "2026-09-02",
+      "n": 138,
+      "failures": 18,
+      "checks": 40,
+      "caught_failures": 14,
+      "checked_successes": 26,
+      "unchecked_failures": 4,
+      "unchecked_successes": 94,
+      "check_rate": 0.2898550724637681,
+      "precision": 0.35,
+      "precision_wilson95": [
+        0.2213452887317629,
+        0.5049411916274231
+      ],
+      "failure_recall": 0.7777777777777778,
+      "baseline_hours": 2160,
+      "verification_hours": 600,
+      "q_assumed": 1.0,
+      "avoided_wasted_hours": 1680.0,
+      "residual_wasted_hours": 480.0,
+      "total_hours": 1080.0,
+      "net_saved_hours": 1080.0,
+      "saved_fraction": 0.5,
+      "break_even_q": 0.35714285714285715
+    },
+    {
+      "date": "2026-09-03",
+      "n": 148,
+      "failures": 24,
+      "checks": 47,
+      "caught_failures": 20,
+      "checked_successes": 27,
+      "unchecked_failures": 4,
+      "unchecked_successes": 97,
+      "check_rate": 0.31756756756756754,
+      "precision": 0.425531914893617,
+      "precision_wilson95": [
+        0.2951362834367996,
+        0.5671808065450721
+      ],
+      "failure_recall": 0.8333333333333334,
+      "baseline_hours": 2880,
+      "verification_hours": 705,
+      "q_assumed": 1.0,
+      "avoided_wasted_hours": 2400.0,
+      "residual_wasted_hours": 480.0,
+      "total_hours": 1185.0,
+      "net_saved_hours": 1695.0,
+      "saved_fraction": 0.5885416666666666,
+      "break_even_q": 0.29375
+    },
+    {
+      "date": "2026-09-04",
+      "n": 143,
+      "failures": 21,
+      "checks": 41,
+      "caught_failures": 20,
+      "checked_successes": 21,
+      "unchecked_failures": 1,
+      "unchecked_successes": 101,
+      "check_rate": 0.2867132867132867,
+      "precision": 0.4878048780487805,
+      "precision_wilson95": [
+        0.34254429554432664,
+        0.6351549134845619
+      ],
+      "failure_recall": 0.9523809523809523,
+      "baseline_hours": 2520,
+      "verification_hours": 615,
+      "q_assumed": 1.0,
+      "avoided_wasted_hours": 2400.0,
+      "residual_wasted_hours": 120.0,
+      "total_hours": 735.0,
+      "net_saved_hours": 1785.0,
+      "saved_fraction": 0.7083333333333334,
+      "break_even_q": 0.25625
+    },
+    {
+      "date": "2026-09-05",
+      "n": 162,
+      "failures": 23,
+      "checks": 52,
+      "caught_failures": 19,
+      "checked_successes": 33,
+      "unchecked_failures": 4,
+      "unchecked_successes": 106,
+      "check_rate": 0.32098765432098764,
+      "precision": 0.36538461538461536,
+      "precision_wilson95": [
+        0.24800699873813392,
+        0.501283218679829
+      ],
+      "failure_recall": 0.8260869565217391,
+      "baseline_hours": 2760,
+      "verification_hours": 780,
+      "q_assumed": 1.0,
+      "avoided_wasted_hours": 2280.0,
+      "residual_wasted_hours": 480.0,
+      "total_hours": 1260.0,
+      "net_saved_hours": 1500.0,
+      "saved_fraction": 0.5434782608695652,
+      "break_even_q": 0.34210526315789475
+    },
+    {
+      "date": "2026-09-06",
+      "n": 171,
+      "failures": 29,
+      "checks": 45,
+      "caught_failures": 20,
+      "checked_successes": 25,
+      "unchecked_failures": 9,
+      "unchecked_successes": 117,
+      "check_rate": 0.2631578947368421,
+      "precision": 0.4444444444444444,
+      "precision_wilson95": [
+        0.30938930034997586,
+        0.5882386550647896
+      ],
+      "failure_recall": 0.6896551724137931,
+      "baseline_hours": 3480,
+      "verification_hours": 675,
+      "q_assumed": 1.0,
+      "avoided_wasted_hours": 2400.0,
+      "residual_wasted_hours": 1080.0,
+      "total_hours": 1755.0,
+      "net_saved_hours": 1725.0,
+      "saved_fraction": 0.4956896551724138,
+      "break_even_q": 0.28125
+    },
+    {
+      "date": "2026-09-07",
+      "n": 141,
+      "failures": 11,
+      "checks": 36,
+      "caught_failures": 9,
+      "checked_successes": 27,
+      "unchecked_failures": 2,
+      "unchecked_successes": 103,
+      "check_rate": 0.2553191489361702,
+      "precision": 0.25,
+      "precision_wilson95": [
+        0.13750477662994837,
+        0.4107045376672835
+      ],
+      "failure_recall": 0.8181818181818182,
+      "baseline_hours": 1320,
+      "verification_hours": 540,
+      "q_assumed": 1.0,
+      "avoided_wasted_hours": 1080.0,
+      "residual_wasted_hours": 240.0,
+      "total_hours": 780.0,
+      "net_saved_hours": 540.0,
+      "saved_fraction": 0.4090909090909091,
+      "break_even_q": 0.5
+    }
+  ],
+  "baselines": [
+    {
+      "rule": {
+        "family": "none",
+        "threshold": null,
+        "zone": null,
+        "device": null
+      },
+      "train": {
+        "n": 584,
+        "failures": 90,
+        "checks": 0,
+        "caught_failures": 0,
+        "checked_successes": 0,
+        "unchecked_failures": 90,
+        "unchecked_successes": 494,
+        "check_rate": 0.0,
+        "precision": null,
+        "precision_wilson95": [
+          null,
+          null
+        ],
+        "failure_recall": 0.0,
+        "baseline_hours": 10800,
+        "verification_hours": 0,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 0.0,
+        "residual_wasted_hours": 10800.0,
+        "total_hours": 10800.0,
+        "net_saved_hours": 0.0,
+        "saved_fraction": 0.0,
+        "break_even_q": null
+      },
+      "holdout": {
+        "n": 474,
+        "failures": 63,
+        "checks": 0,
+        "caught_failures": 0,
+        "checked_successes": 0,
+        "unchecked_failures": 63,
+        "unchecked_successes": 411,
+        "check_rate": 0.0,
+        "precision": null,
+        "precision_wilson95": [
+          null,
+          null
+        ],
+        "failure_recall": 0.0,
+        "baseline_hours": 7560,
+        "verification_hours": 0,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 0.0,
+        "residual_wasted_hours": 7560.0,
+        "total_hours": 7560.0,
+        "net_saved_hours": 0.0,
+        "saved_fraction": 0.0,
+        "break_even_q": null
+      }
+    },
+    {
+      "rule": {
+        "family": "all",
+        "threshold": null,
+        "zone": null,
+        "device": null
+      },
+      "train": {
+        "n": 584,
+        "failures": 90,
+        "checks": 584,
+        "caught_failures": 90,
+        "checked_successes": 494,
+        "unchecked_failures": 0,
+        "unchecked_successes": 0,
+        "check_rate": 1.0,
+        "precision": 0.1541095890410959,
+        "precision_wilson95": [
+          0.12709551176728168,
+          0.18564435382421657
+        ],
+        "failure_recall": 1.0,
+        "baseline_hours": 10800,
+        "verification_hours": 8760,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 10800.0,
+        "residual_wasted_hours": 0.0,
+        "total_hours": 8760.0,
+        "net_saved_hours": 2040.0,
+        "saved_fraction": 0.18888888888888888,
+        "break_even_q": 0.8111111111111111
+      },
+      "holdout": {
+        "n": 474,
+        "failures": 63,
+        "checks": 474,
+        "caught_failures": 63,
+        "checked_successes": 411,
+        "unchecked_failures": 0,
+        "unchecked_successes": 0,
+        "check_rate": 1.0,
+        "precision": 0.13291139240506328,
+        "precision_wilson95": [
+          0.10528155889531407,
+          0.16644341687623357
+        ],
+        "failure_recall": 1.0,
+        "baseline_hours": 7560,
+        "verification_hours": 7110,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 7560.0,
+        "residual_wasted_hours": 0.0,
+        "total_hours": 7110.0,
+        "net_saved_hours": 450.0,
+        "saved_fraction": 0.05952380952380952,
+        "break_even_q": 0.9404761904761905
+      }
+    },
+    {
+      "rule": {
+        "family": "health",
+        "threshold": 30,
+        "zone": null,
+        "device": null
+      },
+      "train": {
+        "n": 584,
+        "failures": 90,
+        "checks": 584,
+        "caught_failures": 90,
+        "checked_successes": 494,
+        "unchecked_failures": 0,
+        "unchecked_successes": 0,
+        "check_rate": 1.0,
+        "precision": 0.1541095890410959,
+        "precision_wilson95": [
+          0.12709551176728168,
+          0.18564435382421657
+        ],
+        "failure_recall": 1.0,
+        "baseline_hours": 10800,
+        "verification_hours": 8760,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 10800.0,
+        "residual_wasted_hours": 0.0,
+        "total_hours": 8760.0,
+        "net_saved_hours": 2040.0,
+        "saved_fraction": 0.18888888888888888,
+        "break_even_q": 0.8111111111111111
+      },
+      "holdout": {
+        "n": 474,
+        "failures": 63,
+        "checks": 474,
+        "caught_failures": 63,
+        "checked_successes": 411,
+        "unchecked_failures": 0,
+        "unchecked_successes": 0,
+        "check_rate": 1.0,
+        "precision": 0.13291139240506328,
+        "precision_wilson95": [
+          0.10528155889531407,
+          0.16644341687623357
+        ],
+        "failure_recall": 1.0,
+        "baseline_hours": 7560,
+        "verification_hours": 7110,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 7560.0,
+        "residual_wasted_hours": 0.0,
+        "total_hours": 7110.0,
+        "net_saved_hours": 450.0,
+        "saved_fraction": 0.05952380952380952,
+        "break_even_q": 0.9404761904761905
+      }
+    },
+    {
+      "rule": {
+        "family": "zone",
+        "threshold": null,
+        "zone": "输煤转运站",
+        "device": null
+      },
+      "train": {
+        "n": 584,
+        "failures": 90,
+        "checks": 110,
+        "caught_failures": 21,
+        "checked_successes": 89,
+        "unchecked_failures": 69,
+        "unchecked_successes": 405,
+        "check_rate": 0.18835616438356165,
+        "precision": 0.19090909090909092,
+        "precision_wilson95": [
+          0.12839407729736774,
+          0.27428399179604285
+        ],
+        "failure_recall": 0.23333333333333334,
+        "baseline_hours": 10800,
+        "verification_hours": 1650,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 2520.0,
+        "residual_wasted_hours": 8280.0,
+        "total_hours": 9930.0,
+        "net_saved_hours": 870.0,
+        "saved_fraction": 0.08055555555555556,
+        "break_even_q": 0.6547619047619048
+      },
+      "holdout": {
+        "n": 474,
+        "failures": 63,
+        "checks": 98,
+        "caught_failures": 12,
+        "checked_successes": 86,
+        "unchecked_failures": 51,
+        "unchecked_successes": 325,
+        "check_rate": 0.20675105485232068,
+        "precision": 0.12244897959183673,
+        "precision_wilson95": [
+          0.07145200242109419,
+          0.201928398283032
+        ],
+        "failure_recall": 0.19047619047619047,
+        "baseline_hours": 7560,
+        "verification_hours": 1470,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 1440.0,
+        "residual_wasted_hours": 6120.0,
+        "total_hours": 7590.0,
+        "net_saved_hours": -30.0,
+        "saved_fraction": -0.003968253968253968,
+        "break_even_q": 1.0208333333333333
+      }
+    },
+    {
+      "rule": {
+        "family": "device",
+        "threshold": null,
+        "zone": null,
+        "device": "变频空压机"
+      },
+      "train": {
+        "n": 584,
+        "failures": 90,
+        "checks": 61,
+        "caught_failures": 13,
+        "checked_successes": 48,
+        "unchecked_failures": 77,
+        "unchecked_successes": 446,
+        "check_rate": 0.10445205479452055,
+        "precision": 0.21311475409836064,
+        "precision_wilson95": [
+          0.1289977374005744,
+          0.33122415401637556
+        ],
+        "failure_recall": 0.14444444444444443,
+        "baseline_hours": 10800,
+        "verification_hours": 915,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 1560.0,
+        "residual_wasted_hours": 9240.0,
+        "total_hours": 10155.0,
+        "net_saved_hours": 645.0,
+        "saved_fraction": 0.059722222222222225,
+        "break_even_q": 0.5865384615384616
+      },
+      "holdout": {
+        "n": 474,
+        "failures": 63,
+        "checks": 45,
+        "caught_failures": 4,
+        "checked_successes": 41,
+        "unchecked_failures": 59,
+        "unchecked_successes": 370,
+        "check_rate": 0.0949367088607595,
+        "precision": 0.08888888888888889,
+        "precision_wilson95": [
+          0.035111116726370226,
+          0.20733575334289356
+        ],
+        "failure_recall": 0.06349206349206349,
+        "baseline_hours": 7560,
+        "verification_hours": 675,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 480.0,
+        "residual_wasted_hours": 7080.0,
+        "total_hours": 7755.0,
+        "net_saved_hours": -195.0,
+        "saved_fraction": -0.025793650793650792,
+        "break_even_q": 1.40625
+      }
+    },
+    {
+      "rule": {
+        "family": "run_hours_diagnostic_only",
+        "threshold": 40,
+        "zone": null,
+        "device": null
+      },
+      "train": {
+        "n": 584,
+        "failures": 90,
+        "checks": 474,
+        "caught_failures": 80,
+        "checked_successes": 394,
+        "unchecked_failures": 10,
+        "unchecked_successes": 100,
+        "check_rate": 0.8116438356164384,
+        "precision": 0.16877637130801687,
+        "precision_wilson95": [
+          0.13775063046366615,
+          0.20512765227273033
+        ],
+        "failure_recall": 0.8888888888888888,
+        "baseline_hours": 10800,
+        "verification_hours": 7110,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 9600.0,
+        "residual_wasted_hours": 1200.0,
+        "total_hours": 8310.0,
+        "net_saved_hours": 2490.0,
+        "saved_fraction": 0.23055555555555557,
+        "break_even_q": 0.740625
+      },
+      "holdout": {
+        "n": 474,
+        "failures": 63,
+        "checks": 365,
+        "caught_failures": 53,
+        "checked_successes": 312,
+        "unchecked_failures": 10,
+        "unchecked_successes": 99,
+        "check_rate": 0.770042194092827,
+        "precision": 0.14520547945205478,
+        "precision_wilson95": [
+          0.11275697640432888,
+          0.1850443043190825
+        ],
+        "failure_recall": 0.8412698412698413,
+        "baseline_hours": 7560,
+        "verification_hours": 5475,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 6360.0,
+        "residual_wasted_hours": 1200.0,
+        "total_hours": 6675.0,
+        "net_saved_hours": 885.0,
+        "saved_fraction": 0.11706349206349206,
+        "break_even_q": 0.8608490566037735
+      }
+    },
+    {
+      "rule": {
+        "family": "age",
+        "threshold": 15,
+        "zone": null,
+        "device": null
+      },
+      "train": {
+        "n": 584,
+        "failures": 90,
+        "checks": 178,
+        "caught_failures": 75,
+        "checked_successes": 103,
+        "unchecked_failures": 15,
+        "unchecked_successes": 391,
+        "check_rate": 0.3047945205479452,
+        "precision": 0.42134831460674155,
+        "precision_wilson95": [
+          0.3512226195799842,
+          0.4947970935174036
+        ],
+        "failure_recall": 0.8333333333333334,
+        "baseline_hours": 10800,
+        "verification_hours": 2670,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 9000.0,
+        "residual_wasted_hours": 1800.0,
+        "total_hours": 4470.0,
+        "net_saved_hours": 6330.0,
+        "saved_fraction": 0.5861111111111111,
+        "break_even_q": 0.2966666666666667
+      },
+      "holdout": {
+        "n": 474,
+        "failures": 63,
+        "checks": 133,
+        "caught_failures": 48,
+        "checked_successes": 85,
+        "unchecked_failures": 15,
+        "unchecked_successes": 326,
+        "check_rate": 0.2805907172995781,
+        "precision": 0.3609022556390977,
+        "precision_wilson95": [
+          0.28424538924124404,
+          0.445368718070475
+        ],
+        "failure_recall": 0.7619047619047619,
+        "baseline_hours": 7560,
+        "verification_hours": 1995,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 5760.0,
+        "residual_wasted_hours": 1800.0,
+        "total_hours": 3795.0,
+        "net_saved_hours": 3765.0,
+        "saved_fraction": 0.498015873015873,
+        "break_even_q": 0.3463541666666667
+      }
+    }
+  ],
+  "effectiveness_sensitivity_holdout": [
+    {
+      "q": 0,
+      "n": 474,
+      "failures": 63,
+      "checks": 133,
+      "caught_failures": 48,
+      "checked_successes": 85,
+      "unchecked_failures": 15,
+      "unchecked_successes": 326,
+      "check_rate": 0.2805907172995781,
+      "precision": 0.3609022556390977,
+      "precision_wilson95": [
+        0.28424538924124404,
+        0.445368718070475
+      ],
+      "failure_recall": 0.7619047619047619,
+      "baseline_hours": 7560,
+      "verification_hours": 1995,
+      "q_assumed": 0,
+      "avoided_wasted_hours": 0,
+      "residual_wasted_hours": 7560,
+      "total_hours": 9555,
+      "net_saved_hours": -1995,
+      "saved_fraction": -0.2638888888888889,
+      "break_even_q": 0.3463541666666667
+    },
+    {
+      "q": 0.25,
+      "n": 474,
+      "failures": 63,
+      "checks": 133,
+      "caught_failures": 48,
+      "checked_successes": 85,
+      "unchecked_failures": 15,
+      "unchecked_successes": 326,
+      "check_rate": 0.2805907172995781,
+      "precision": 0.3609022556390977,
+      "precision_wilson95": [
+        0.28424538924124404,
+        0.445368718070475
+      ],
+      "failure_recall": 0.7619047619047619,
+      "baseline_hours": 7560,
+      "verification_hours": 1995,
+      "q_assumed": 0.25,
+      "avoided_wasted_hours": 1440.0,
+      "residual_wasted_hours": 6120.0,
+      "total_hours": 8115.0,
+      "net_saved_hours": -555.0,
+      "saved_fraction": -0.07341269841269842,
+      "break_even_q": 0.3463541666666667
+    },
+    {
+      "q": 0.5,
+      "n": 474,
+      "failures": 63,
+      "checks": 133,
+      "caught_failures": 48,
+      "checked_successes": 85,
+      "unchecked_failures": 15,
+      "unchecked_successes": 326,
+      "check_rate": 0.2805907172995781,
+      "precision": 0.3609022556390977,
+      "precision_wilson95": [
+        0.28424538924124404,
+        0.445368718070475
+      ],
+      "failure_recall": 0.7619047619047619,
+      "baseline_hours": 7560,
+      "verification_hours": 1995,
+      "q_assumed": 0.5,
+      "avoided_wasted_hours": 2880.0,
+      "residual_wasted_hours": 4680.0,
+      "total_hours": 6675.0,
+      "net_saved_hours": 885.0,
+      "saved_fraction": 0.11706349206349206,
+      "break_even_q": 0.3463541666666667
+    },
+    {
+      "q": 0.75,
+      "n": 474,
+      "failures": 63,
+      "checks": 133,
+      "caught_failures": 48,
+      "checked_successes": 85,
+      "unchecked_failures": 15,
+      "unchecked_successes": 326,
+      "check_rate": 0.2805907172995781,
+      "precision": 0.3609022556390977,
+      "precision_wilson95": [
+        0.28424538924124404,
+        0.445368718070475
+      ],
+      "failure_recall": 0.7619047619047619,
+      "baseline_hours": 7560,
+      "verification_hours": 1995,
+      "q_assumed": 0.75,
+      "avoided_wasted_hours": 4320.0,
+      "residual_wasted_hours": 3240.0,
+      "total_hours": 5235.0,
+      "net_saved_hours": 2325.0,
+      "saved_fraction": 0.30753968253968256,
+      "break_even_q": 0.3463541666666667
+    },
+    {
+      "q": 1,
+      "n": 474,
+      "failures": 63,
+      "checks": 133,
+      "caught_failures": 48,
+      "checked_successes": 85,
+      "unchecked_failures": 15,
+      "unchecked_successes": 326,
+      "check_rate": 0.2805907172995781,
+      "precision": 0.3609022556390977,
+      "precision_wilson95": [
+        0.28424538924124404,
+        0.445368718070475
+      ],
+      "failure_recall": 0.7619047619047619,
+      "baseline_hours": 7560,
+      "verification_hours": 1995,
+      "q_assumed": 1,
+      "avoided_wasted_hours": 5760,
+      "residual_wasted_hours": 1800,
+      "total_hours": 3795,
+      "net_saved_hours": 3765,
+      "saved_fraction": 0.498015873015873,
+      "break_even_q": 0.3463541666666667
+    }
+  ],
+  "threshold_sensitivity": [
+    {
+      "threshold_minutes": 10,
+      "train": {
+        "n": 584,
+        "failures": 90,
+        "checks": 302,
+        "caught_failures": 78,
+        "checked_successes": 224,
+        "unchecked_failures": 12,
+        "unchecked_successes": 270,
+        "check_rate": 0.5171232876712328,
+        "precision": 0.2582781456953642,
+        "precision_wilson95": [
+          0.21216752050101417,
+          0.31046096628764075
+        ],
+        "failure_recall": 0.8666666666666667,
+        "baseline_hours": 10800,
+        "verification_hours": 4530,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 9360.0,
+        "residual_wasted_hours": 1440.0,
+        "total_hours": 5970.0,
+        "net_saved_hours": 4830.0,
+        "saved_fraction": 0.44722222222222224,
+        "break_even_q": 0.483974358974359
+      },
+      "holdout": {
+        "n": 474,
+        "failures": 63,
+        "checks": 222,
+        "caught_failures": 51,
+        "checked_successes": 171,
+        "unchecked_failures": 12,
+        "unchecked_successes": 240,
+        "check_rate": 0.46835443037974683,
+        "precision": 0.22972972972972974,
+        "precision_wilson95": [
+          0.17927202570177908,
+          0.28938177849068547
+        ],
+        "failure_recall": 0.8095238095238095,
+        "baseline_hours": 7560,
+        "verification_hours": 3330,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 6120.0,
+        "residual_wasted_hours": 1440.0,
+        "total_hours": 4770.0,
+        "net_saved_hours": 2790.0,
+        "saved_fraction": 0.36904761904761907,
+        "break_even_q": 0.5441176470588235
+      }
+    },
+    {
+      "threshold_minutes": 15,
+      "train": {
+        "n": 584,
+        "failures": 90,
+        "checks": 178,
+        "caught_failures": 75,
+        "checked_successes": 103,
+        "unchecked_failures": 15,
+        "unchecked_successes": 391,
+        "check_rate": 0.3047945205479452,
+        "precision": 0.42134831460674155,
+        "precision_wilson95": [
+          0.3512226195799842,
+          0.4947970935174036
+        ],
+        "failure_recall": 0.8333333333333334,
+        "baseline_hours": 10800,
+        "verification_hours": 2670,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 9000.0,
+        "residual_wasted_hours": 1800.0,
+        "total_hours": 4470.0,
+        "net_saved_hours": 6330.0,
+        "saved_fraction": 0.5861111111111111,
+        "break_even_q": 0.2966666666666667
+      },
+      "holdout": {
+        "n": 474,
+        "failures": 63,
+        "checks": 133,
+        "caught_failures": 48,
+        "checked_successes": 85,
+        "unchecked_failures": 15,
+        "unchecked_successes": 326,
+        "check_rate": 0.2805907172995781,
+        "precision": 0.3609022556390977,
+        "precision_wilson95": [
+          0.28424538924124404,
+          0.445368718070475
+        ],
+        "failure_recall": 0.7619047619047619,
+        "baseline_hours": 7560,
+        "verification_hours": 1995,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 5760.0,
+        "residual_wasted_hours": 1800.0,
+        "total_hours": 3795.0,
+        "net_saved_hours": 3765.0,
+        "saved_fraction": 0.498015873015873,
+        "break_even_q": 0.3463541666666667
+      }
+    },
+    {
+      "threshold_minutes": 20,
+      "train": {
+        "n": 584,
+        "failures": 90,
+        "checks": 171,
+        "caught_failures": 73,
+        "checked_successes": 98,
+        "unchecked_failures": 17,
+        "unchecked_successes": 396,
+        "check_rate": 0.2928082191780822,
+        "precision": 0.4269005847953216,
+        "precision_wilson95": [
+          0.35517214573215306,
+          0.5018411726842852
+        ],
+        "failure_recall": 0.8111111111111111,
+        "baseline_hours": 10800,
+        "verification_hours": 2565,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 8760.0,
+        "residual_wasted_hours": 2040.0,
+        "total_hours": 4605.0,
+        "net_saved_hours": 6195.0,
+        "saved_fraction": 0.5736111111111111,
+        "break_even_q": 0.2928082191780822
+      },
+      "holdout": {
+        "n": 474,
+        "failures": 63,
+        "checks": 124,
+        "caught_failures": 45,
+        "checked_successes": 79,
+        "unchecked_failures": 18,
+        "unchecked_successes": 332,
+        "check_rate": 0.2616033755274262,
+        "precision": 0.3629032258064516,
+        "precision_wilson95": [
+          0.28357014182263524,
+          0.45047544625464736
+        ],
+        "failure_recall": 0.7142857142857143,
+        "baseline_hours": 7560,
+        "verification_hours": 1860,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 5400.0,
+        "residual_wasted_hours": 2160.0,
+        "total_hours": 4020.0,
+        "net_saved_hours": 3540.0,
+        "saved_fraction": 0.46825396825396826,
+        "break_even_q": 0.34444444444444444
+      }
+    },
+    {
+      "threshold_minutes": 25,
+      "train": {
+        "n": 584,
+        "failures": 90,
+        "checks": 146,
+        "caught_failures": 60,
+        "checked_successes": 86,
+        "unchecked_failures": 30,
+        "unchecked_successes": 408,
+        "check_rate": 0.25,
+        "precision": 0.410958904109589,
+        "precision_wilson95": [
+          0.33443072484567565,
+          0.49205254484063615
+        ],
+        "failure_recall": 0.6666666666666666,
+        "baseline_hours": 10800,
+        "verification_hours": 2190,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 7200.0,
+        "residual_wasted_hours": 3600.0,
+        "total_hours": 5790.0,
+        "net_saved_hours": 5010.0,
+        "saved_fraction": 0.4638888888888889,
+        "break_even_q": 0.30416666666666664
+      },
+      "holdout": {
+        "n": 474,
+        "failures": 63,
+        "checks": 113,
+        "caught_failures": 40,
+        "checked_successes": 73,
+        "unchecked_failures": 23,
+        "unchecked_successes": 338,
+        "check_rate": 0.23839662447257384,
+        "precision": 0.35398230088495575,
+        "precision_wilson95": [
+          0.27194152405592453,
+          0.4456244809128933
+        ],
+        "failure_recall": 0.6349206349206349,
+        "baseline_hours": 7560,
+        "verification_hours": 1695,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 4800.0,
+        "residual_wasted_hours": 2760.0,
+        "total_hours": 4455.0,
+        "net_saved_hours": 3105.0,
+        "saved_fraction": 0.4107142857142857,
+        "break_even_q": 0.353125
+      }
+    },
+    {
+      "threshold_minutes": 30,
+      "train": {
+        "n": 584,
+        "failures": 90,
+        "checks": 132,
+        "caught_failures": 52,
+        "checked_successes": 80,
+        "unchecked_failures": 38,
+        "unchecked_successes": 414,
+        "check_rate": 0.22602739726027396,
+        "precision": 0.3939393939393939,
+        "precision_wilson95": [
+          0.31471559194916743,
+          0.4791617688869011
+        ],
+        "failure_recall": 0.5777777777777777,
+        "baseline_hours": 10800,
+        "verification_hours": 1980,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 6240.0,
+        "residual_wasted_hours": 4560.0,
+        "total_hours": 6540.0,
+        "net_saved_hours": 4260.0,
+        "saved_fraction": 0.39444444444444443,
+        "break_even_q": 0.3173076923076923
+      },
+      "holdout": {
+        "n": 474,
+        "failures": 63,
+        "checks": 98,
+        "caught_failures": 36,
+        "checked_successes": 62,
+        "unchecked_failures": 27,
+        "unchecked_successes": 349,
+        "check_rate": 0.20675105485232068,
+        "precision": 0.3673469387755102,
+        "precision_wilson95": [
+          0.2785887752216772,
+          0.46611244664734003
+        ],
+        "failure_recall": 0.5714285714285714,
+        "baseline_hours": 7560,
+        "verification_hours": 1470,
+        "q_assumed": 1.0,
+        "avoided_wasted_hours": 4320.0,
+        "residual_wasted_hours": 3240.0,
+        "total_hours": 4710.0,
+        "net_saved_hours": 2850.0,
+        "saved_fraction": 0.376984126984127,
+        "break_even_q": 0.3402777777777778
+      }
+    }
+  ],
+  "limitations": [
+    "Association does not identify a causal telemetry/cache/network defect.",
+    "Global exploratory summaries were viewed before the temporal backtest; holdout is not a pristine preregistered test.",
+    "Seven days and no device identifier prevent long-term or repeated-device validation.",
+    "Verification effectiveness, false alarms, elapsed delay, urgency SLA and capacity are not observed.",
+    "continuous_run_hours contradicts the supplied same-day definition for most tasks."
+  ]
+}

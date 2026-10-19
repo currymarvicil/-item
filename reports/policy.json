@@ -1,0 +1,11 @@
+{
+  "rule": {
+    "family": "age",
+    "threshold": 15,
+    "zone": null,
+    "device": null
+  },
+  "trained_before_local_date": "2026-09-05",
+  "assumed_q_for_training": 1,
+  "candidate_count": 198
+}

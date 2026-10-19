@@ -1,0 +1,6 @@
+threshold_minutes,train_net_saved_hours,holdout_net_saved_hours,holdout_checks,holdout_caught_failures
+10,4830.0,2790.0,222,51
+15,6330.0,3765.0,133,48
+20,6195.0,3540.0,124,45
+25,5010.0,3105.0,113,40
+30,4260.0,2850.0,98,36

@@ -1,0 +1,1109 @@
+task_id,dispatch_time,telemetry_age_minutes,plant_zone,task_success,cohort,verify_before_departure,historical_failure_in_selected_group,reason
+1417,2026-09-01T07:02:00+08:00,9.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1020,2026-09-01T07:10:00+08:00,36.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1033,2026-09-01T07:16:00+08:00,2.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1284,2026-09-01T07:18:00+08:00,40.0,烟气净化区,0,train,1,1,telemetry_age_minutes >= 15
+1861,2026-09-01T07:18:00+08:00,9.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1063,2026-09-01T07:25:00+08:00,32.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1129,2026-09-01T07:26:00+08:00,13.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1326,2026-09-01T07:30:00+08:00,45.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1372,2026-09-01T07:33:00+08:00,11.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1346,2026-09-01T07:34:00+08:00,1.0,输煤转运站,,train,0,,below_selected_age_threshold
+1116,2026-09-01T07:43:00+08:00,9.0,水处理车间,0,train,0,0,below_selected_age_threshold
+1799,2026-09-01T07:46:00+08:00,23.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1352,2026-09-01T07:55:00+08:00,35.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1627,2026-09-01T07:57:00+08:00,52.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1704,2026-09-01T08:01:00+08:00,45.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+2087,2026-09-01T08:02:00+08:00,1.0,二号机组区,1,train,0,0,below_selected_age_threshold
+2060,2026-09-01T08:03:00+08:00,6.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1719,2026-09-01T08:06:00+08:00,3.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1560,2026-09-01T08:09:00+08:00,10.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1921,2026-09-01T08:29:00+08:00,56.0,输煤转运站,,train,1,,telemetry_age_minutes >= 15
+1293,2026-09-01T08:35:00+08:00,52.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1141,2026-09-01T08:36:00+08:00,9.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1239,2026-09-01T08:36:00+08:00,4.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1044,2026-09-01T08:38:00+08:00,11.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1452,2026-09-01T08:41:00+08:00,13.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1333,2026-09-01T08:44:00+08:00,12.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1911,2026-09-01T08:46:00+08:00,44.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1307,2026-09-01T09:02:00+08:00,2.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1169,2026-09-01T09:05:00+08:00,0.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1752,2026-09-01T09:06:00+08:00,61.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1842,2026-09-01T09:11:00+08:00,3.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1146,2026-09-01T09:15:00+08:00,8.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1551,2026-09-01T09:15:00+08:00,3.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1045,2026-09-01T09:22:00+08:00,9.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1834,2026-09-01T09:28:00+08:00,1.0,二号机组区,0,train,0,0,below_selected_age_threshold
+2008,2026-09-01T09:28:00+08:00,6.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1764,2026-09-01T09:29:00+08:00,12.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1675,2026-09-01T09:30:00+08:00,10.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1579,2026-09-01T09:40:00+08:00,59.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+2067,2026-09-01T09:46:00+08:00,3.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1283,2026-09-01T09:48:00+08:00,20.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1618,2026-09-01T09:52:00+08:00,29.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1649,2026-09-01T09:56:00+08:00,52.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1766,2026-09-01T09:57:00+08:00,30.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1802,2026-09-01T10:05:00+08:00,32.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1631,2026-09-01T10:09:00+08:00,8.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1157,2026-09-01T10:13:00+08:00,23.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1343,2026-09-01T10:19:00+08:00,10.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1404,2026-09-01T10:22:00+08:00,4.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1029,2026-09-01T10:25:00+08:00,5.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1923,2026-09-01T10:26:00+08:00,1.0,一号机组区,,train,0,,below_selected_age_threshold
+1473,2026-09-01T10:37:00+08:00,36.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1672,2026-09-01T10:49:00+08:00,6.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1816,2026-09-01T10:52:00+08:00,1.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1863,2026-09-01T10:52:00+08:00,5.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1858,2026-09-01T11:00:00+08:00,6.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1898,2026-09-01T11:04:00+08:00,0.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1669,2026-09-01T11:08:00+08:00,4.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1856,2026-09-01T11:13:00+08:00,7.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1589,2026-09-01T11:21:00+08:00,7.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1990,2026-09-01T11:33:00+08:00,0.0,输煤转运站,0,train,0,0,below_selected_age_threshold
+1804,2026-09-01T11:36:00+08:00,10.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1215,2026-09-01T11:38:00+08:00,4.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+2092,2026-09-01T11:41:00+08:00,10.0,烟气净化区,0,train,0,0,below_selected_age_threshold
+1722,2026-09-01T11:49:00+08:00,28.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1740,2026-09-01T11:51:00+08:00,56.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1461,2026-09-01T11:58:00+08:00,63.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1403,2026-09-01T12:08:00+08:00,5.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1875,2026-09-01T12:11:00+08:00,7.0,二号机组区,,train,0,,below_selected_age_threshold
+1476,2026-09-01T12:12:00+08:00,13.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1320,2026-09-01T12:15:00+08:00,0.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1211,2026-09-01T12:17:00+08:00,39.0,烟气净化区,0,train,1,1,telemetry_age_minutes >= 15
+1906,2026-09-01T12:21:00+08:00,42.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1221,2026-09-01T12:23:00+08:00,2.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1625,2026-09-01T12:27:00+08:00,5.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1013,2026-09-01T12:33:00+08:00,3.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1872,2026-09-01T12:42:00+08:00,8.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1041,2026-09-01T12:54:00+08:00,0.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+2040,2026-09-01T12:55:00+08:00,9.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1163,2026-09-01T13:29:00+08:00,7.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1256,2026-09-01T13:29:00+08:00,5.0,一号机组区,1,train,0,0,below_selected_age_threshold
+2044,2026-09-01T13:31:00+08:00,10.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1814,2026-09-01T13:36:00+08:00,8.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1056,2026-09-01T13:41:00+08:00,37.0,输煤转运站,1,train,1,0,telemetry_age_minutes >= 15
+1487,2026-09-01T13:48:00+08:00,46.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1789,2026-09-01T13:57:00+08:00,6.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1986,2026-09-01T14:05:00+08:00,5.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1577,2026-09-01T14:10:00+08:00,33.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1760,2026-09-01T14:24:00+08:00,8.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1837,2026-09-01T14:26:00+08:00,13.0,二号机组区,1,train,0,0,below_selected_age_threshold
+2089,2026-09-01T14:47:00+08:00,6.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1015,2026-09-01T14:49:00+08:00,3.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1062,2026-09-01T14:51:00+08:00,1.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1502,2026-09-01T15:01:00+08:00,21.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1232,2026-09-01T15:03:00+08:00,11.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1730,2026-09-01T15:06:00+08:00,0.0,水处理车间,,train,0,,below_selected_age_threshold
+1334,2026-09-01T15:26:00+08:00,38.0,输煤转运站,1,train,1,0,telemetry_age_minutes >= 15
+1562,2026-09-01T15:30:00+08:00,11.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1568,2026-09-01T15:30:00+08:00,0.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1738,2026-09-01T15:34:00+08:00,57.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1457,2026-09-01T15:38:00+08:00,7.0,输煤转运站,,train,0,,below_selected_age_threshold
+1894,2026-09-01T15:38:00+08:00,27.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1083,2026-09-01T15:42:00+08:00,48.0,输煤转运站,1,train,1,0,telemetry_age_minutes >= 15
+1133,2026-09-01T15:57:00+08:00,40.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1893,2026-09-01T16:00:00+08:00,17.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1641,2026-09-01T16:07:00+08:00,8.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1126,2026-09-01T16:30:00+08:00,5.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1470,2026-09-01T16:34:00+08:00,1.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1495,2026-09-01T16:34:00+08:00,44.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1036,2026-09-01T16:44:00+08:00,44.0,输煤转运站,1,train,1,0,telemetry_age_minutes >= 15
+1373,2026-09-01T16:46:00+08:00,9.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1114,2026-09-01T16:47:00+08:00,10.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1792,2026-09-01T16:52:00+08:00,3.0,二号机组区,1,train,0,0,below_selected_age_threshold
+2003,2026-09-01T16:54:00+08:00,4.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1427,2026-09-01T17:01:00+08:00,40.0,输煤转运站,1,train,1,0,telemetry_age_minutes >= 15
+1322,2026-09-01T17:04:00+08:00,1.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1354,2026-09-01T17:10:00+08:00,10.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1117,2026-09-01T17:16:00+08:00,57.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1867,2026-09-01T17:16:00+08:00,9.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1769,2026-09-01T17:20:00+08:00,5.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1317,2026-09-01T17:26:00+08:00,1.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1368,2026-09-01T17:48:00+08:00,9.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1181,2026-09-01T17:53:00+08:00,5.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1927,2026-09-01T17:58:00+08:00,37.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1485,2026-09-01T18:07:00+08:00,7.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1011,2026-09-01T18:21:00+08:00,48.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1561,2026-09-01T18:27:00+08:00,60.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1723,2026-09-01T18:27:00+08:00,4.0,水处理车间,,train,0,,below_selected_age_threshold
+1286,2026-09-01T18:36:00+08:00,7.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1557,2026-09-01T18:50:00+08:00,43.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1414,2026-09-01T18:59:00+08:00,12.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1187,2026-09-01T19:00:00+08:00,3.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1578,2026-09-01T19:05:00+08:00,58.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1710,2026-09-01T19:05:00+08:00,13.0,二号机组区,1,train,0,0,below_selected_age_threshold
+2022,2026-09-01T19:11:00+08:00,2.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1145,2026-09-01T19:13:00+08:00,13.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1314,2026-09-01T19:19:00+08:00,11.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1371,2026-09-01T19:32:00+08:00,9.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1965,2026-09-01T19:55:00+08:00,12.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1550,2026-09-01T19:57:00+08:00,5.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1709,2026-09-01T20:04:00+08:00,22.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1857,2026-09-01T20:08:00+08:00,11.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+2059,2026-09-01T20:09:00+08:00,34.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1884,2026-09-01T20:12:00+08:00,9.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1745,2026-09-01T20:21:00+08:00,41.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1192,2026-09-01T20:23:00+08:00,0.0,二号机组区,1,train,0,0,below_selected_age_threshold
+2093,2026-09-01T20:28:00+08:00,3.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1271,2026-09-01T20:30:00+08:00,26.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1434,2026-09-01T20:42:00+08:00,1.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1803,2026-09-01T20:46:00+08:00,0.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1178,2026-09-01T20:54:00+08:00,11.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1962,2026-09-01T21:06:00+08:00,12.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1331,2026-09-01T21:08:00+08:00,3.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1903,2026-09-01T21:14:00+08:00,11.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1355,2026-09-01T21:22:00+08:00,5.0,输煤转运站,0,train,0,0,below_selected_age_threshold
+1523,2026-09-01T21:28:00+08:00,5.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1681,2026-09-01T21:34:00+08:00,62.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1497,2026-09-01T21:36:00+08:00,2.0,输煤转运站,0,train,0,0,below_selected_age_threshold
+1849,2026-09-01T21:44:00+08:00,55.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1327,2026-09-01T21:49:00+08:00,3.0,水处理车间,1,train,0,0,below_selected_age_threshold
+2107,2026-09-01T21:53:00+08:00,0.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1768,2026-09-01T21:57:00+08:00,38.0,输煤转运站,1,train,1,0,telemetry_age_minutes >= 15
+1515,2026-09-02T07:01:00+08:00,3.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1997,2026-09-02T07:05:00+08:00,25.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1852,2026-09-02T07:07:00+08:00,41.0,烟气净化区,,train,1,,telemetry_age_minutes >= 15
+1021,2026-09-02T07:15:00+08:00,58.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1751,2026-09-02T07:18:00+08:00,12.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1407,2026-09-02T07:25:00+08:00,26.0,输煤转运站,1,train,1,0,telemetry_age_minutes >= 15
+1389,2026-09-02T07:28:00+08:00,13.0,二号机组区,1,train,0,0,below_selected_age_threshold
+2048,2026-09-02T07:29:00+08:00,32.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1511,2026-09-02T07:30:00+08:00,9.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1122,2026-09-02T07:37:00+08:00,17.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1707,2026-09-02T07:38:00+08:00,30.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1161,2026-09-02T07:39:00+08:00,31.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1220,2026-09-02T07:58:00+08:00,12.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1031,2026-09-02T08:07:00+08:00,13.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1667,2026-09-02T08:11:00+08:00,32.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1274,2026-09-02T08:15:00+08:00,39.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+2104,2026-09-02T08:19:00+08:00,12.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1258,2026-09-02T08:20:00+08:00,36.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1809,2026-09-02T08:22:00+08:00,47.0,输煤转运站,1,train,1,0,telemetry_age_minutes >= 15
+1335,2026-09-02T08:24:00+08:00,1.0,输煤转运站,0,train,0,0,below_selected_age_threshold
+1337,2026-09-02T08:28:00+08:00,6.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1094,2026-09-02T08:29:00+08:00,36.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1654,2026-09-02T08:31:00+08:00,3.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1332,2026-09-02T08:32:00+08:00,32.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1400,2026-09-02T08:44:00+08:00,12.0,一号机组区,1,train,0,0,below_selected_age_threshold
+2028,2026-09-02T08:44:00+08:00,9.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1805,2026-09-02T08:53:00+08:00,2.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1899,2026-09-02T08:54:00+08:00,46.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1691,2026-09-02T08:55:00+08:00,1.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+2096,2026-09-02T09:18:00+08:00,1.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1282,2026-09-02T09:27:00+08:00,10.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1176,2026-09-02T09:34:00+08:00,29.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1302,2026-09-02T09:42:00+08:00,49.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1604,2026-09-02T09:44:00+08:00,11.0,一号机组区,0,train,0,0,below_selected_age_threshold
+1612,2026-09-02T09:48:00+08:00,64.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+2084,2026-09-02T10:08:00+08:00,2.0,一号机组区,1,train,0,0,below_selected_age_threshold
+2075,2026-09-02T10:23:00+08:00,10.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1482,2026-09-02T10:37:00+08:00,6.0,水处理车间,,train,0,,below_selected_age_threshold
+2105,2026-09-02T10:40:00+08:00,36.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1237,2026-09-02T10:54:00+08:00,8.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1774,2026-09-02T10:55:00+08:00,6.0,输煤转运站,,train,0,,below_selected_age_threshold
+1724,2026-09-02T11:04:00+08:00,5.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1572,2026-09-02T11:05:00+08:00,12.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+2077,2026-09-02T11:05:00+08:00,49.0,输煤转运站,1,train,1,0,telemetry_age_minutes >= 15
+1576,2026-09-02T11:06:00+08:00,44.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1621,2026-09-02T11:10:00+08:00,10.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1763,2026-09-02T11:14:00+08:00,13.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1747,2026-09-02T11:20:00+08:00,10.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1959,2026-09-02T11:21:00+08:00,12.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1198,2026-09-02T11:22:00+08:00,11.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1329,2026-09-02T11:29:00+08:00,32.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1935,2026-09-02T11:29:00+08:00,8.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1630,2026-09-02T11:38:00+08:00,10.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1601,2026-09-02T11:39:00+08:00,11.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1998,2026-09-02T11:55:00+08:00,11.0,二号机组区,1,train,0,0,below_selected_age_threshold
+2069,2026-09-02T12:02:00+08:00,10.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1810,2026-09-02T12:04:00+08:00,3.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1840,2026-09-02T12:16:00+08:00,5.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1864,2026-09-02T12:24:00+08:00,7.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+2007,2026-09-02T12:30:00+08:00,7.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1506,2026-09-02T12:35:00+08:00,26.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1930,2026-09-02T12:43:00+08:00,6.0,二号机组区,1,train,0,0,below_selected_age_threshold
+2098,2026-09-02T12:48:00+08:00,13.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1721,2026-09-02T13:02:00+08:00,1.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1594,2026-09-02T13:10:00+08:00,7.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1870,2026-09-02T13:10:00+08:00,13.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1175,2026-09-02T13:13:00+08:00,2.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1617,2026-09-02T13:23:00+08:00,7.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1873,2026-09-02T13:45:00+08:00,1.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1655,2026-09-02T14:00:00+08:00,13.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1379,2026-09-02T14:04:00+08:00,13.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1127,2026-09-02T14:06:00+08:00,35.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+2066,2026-09-02T14:23:00+08:00,9.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1954,2026-09-02T14:24:00+08:00,5.0,烟气净化区,0,train,0,0,below_selected_age_threshold
+1925,2026-09-02T14:27:00+08:00,62.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1753,2026-09-02T14:42:00+08:00,47.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1540,2026-09-02T14:47:00+08:00,11.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1456,2026-09-02T14:49:00+08:00,22.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1933,2026-09-02T14:49:00+08:00,7.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1535,2026-09-02T15:04:00+08:00,3.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1004,2026-09-02T15:07:00+08:00,2.0,一号机组区,1,train,0,0,below_selected_age_threshold
+2013,2026-09-02T15:20:00+08:00,9.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1886,2026-09-02T15:26:00+08:00,7.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1132,2026-09-02T15:38:00+08:00,37.0,二号机组区,,train,1,,telemetry_age_minutes >= 15
+1748,2026-09-02T15:58:00+08:00,44.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1095,2026-09-02T16:00:00+08:00,8.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1338,2026-09-02T16:03:00+08:00,10.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1603,2026-09-02T16:11:00+08:00,4.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1900,2026-09-02T16:14:00+08:00,51.0,输煤转运站,1,train,1,0,telemetry_age_minutes >= 15
+1433,2026-09-02T16:17:00+08:00,10.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1538,2026-09-02T16:21:00+08:00,2.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1544,2026-09-02T16:23:00+08:00,7.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1880,2026-09-02T16:33:00+08:00,11.0,二号机组区,1,train,0,0,below_selected_age_threshold
+2080,2026-09-02T16:35:00+08:00,11.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1839,2026-09-02T16:42:00+08:00,1.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+2083,2026-09-02T16:45:00+08:00,4.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1570,2026-09-02T16:50:00+08:00,10.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1142,2026-09-02T17:00:00+08:00,57.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1859,2026-09-02T17:20:00+08:00,1.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1080,2026-09-02T17:23:00+08:00,13.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1581,2026-09-02T17:32:00+08:00,8.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1558,2026-09-02T17:40:00+08:00,11.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1793,2026-09-02T17:45:00+08:00,11.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1280,2026-09-02T17:47:00+08:00,55.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+2078,2026-09-02T17:50:00+08:00,13.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1871,2026-09-02T17:56:00+08:00,3.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+2082,2026-09-02T17:57:00+08:00,13.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1189,2026-09-02T18:00:00+08:00,7.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1154,2026-09-02T18:04:00+08:00,40.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1050,2026-09-02T18:13:00+08:00,11.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1565,2026-09-02T18:17:00+08:00,2.0,烟气净化区,0,train,0,0,below_selected_age_threshold
+1267,2026-09-02T18:22:00+08:00,11.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1626,2026-09-02T18:33:00+08:00,12.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1166,2026-09-02T18:48:00+08:00,32.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1477,2026-09-02T18:50:00+08:00,6.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1034,2026-09-02T18:54:00+08:00,8.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1022,2026-09-02T19:10:00+08:00,48.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1180,2026-09-02T19:13:00+08:00,6.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1848,2026-09-02T19:23:00+08:00,32.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+2010,2026-09-02T19:27:00+08:00,10.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1235,2026-09-02T19:31:00+08:00,6.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1092,2026-09-02T19:46:00+08:00,0.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1266,2026-09-02T20:02:00+08:00,20.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1541,2026-09-02T20:13:00+08:00,4.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1318,2026-09-02T20:32:00+08:00,6.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+2036,2026-09-02T20:35:00+08:00,21.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1140,2026-09-02T20:44:00+08:00,5.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1974,2026-09-02T20:44:00+08:00,12.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1992,2026-09-02T20:56:00+08:00,5.0,水处理车间,1,train,0,0,below_selected_age_threshold
+2035,2026-09-02T20:56:00+08:00,52.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+2068,2026-09-02T20:56:00+08:00,5.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1590,2026-09-02T20:57:00+08:00,12.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1491,2026-09-02T21:02:00+08:00,23.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1224,2026-09-02T21:03:00+08:00,9.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1944,2026-09-02T21:04:00+08:00,13.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1836,2026-09-02T21:09:00+08:00,60.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1765,2026-09-02T21:10:00+08:00,1.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1226,2026-09-02T21:21:00+08:00,6.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1711,2026-09-02T21:40:00+08:00,19.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1916,2026-09-02T21:47:00+08:00,8.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1295,2026-09-02T21:48:00+08:00,11.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1073,2026-09-02T21:49:00+08:00,6.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1717,2026-09-03T07:03:00+08:00,10.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1108,2026-09-03T07:08:00+08:00,29.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1865,2026-09-03T07:19:00+08:00,4.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1471,2026-09-03T07:20:00+08:00,12.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1137,2026-09-03T07:22:00+08:00,21.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1563,2026-09-03T07:26:00+08:00,0.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1854,2026-09-03T07:39:00+08:00,13.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1688,2026-09-03T08:01:00+08:00,33.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1847,2026-09-03T08:11:00+08:00,21.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1026,2026-09-03T08:12:00+08:00,1.0,输煤转运站,,train,0,,below_selected_age_threshold
+1110,2026-09-03T08:16:00+08:00,5.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1378,2026-09-03T08:22:00+08:00,18.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1475,2026-09-03T08:39:00+08:00,5.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1919,2026-09-03T08:39:00+08:00,13.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1008,2026-09-03T08:46:00+08:00,2.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1733,2026-09-03T08:51:00+08:00,62.0,二号机组区,,train,1,,telemetry_age_minutes >= 15
+1881,2026-09-03T09:03:00+08:00,27.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1640,2026-09-03T09:07:00+08:00,22.0,输煤转运站,1,train,1,0,telemetry_age_minutes >= 15
+2079,2026-09-03T09:09:00+08:00,5.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1706,2026-09-03T09:29:00+08:00,13.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1190,2026-09-03T09:38:00+08:00,54.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1134,2026-09-03T09:53:00+08:00,59.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1700,2026-09-03T09:54:00+08:00,10.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1276,2026-09-03T09:57:00+08:00,3.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1637,2026-09-03T09:58:00+08:00,3.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1259,2026-09-03T09:59:00+08:00,12.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1032,2026-09-03T10:02:00+08:00,20.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1494,2026-09-03T10:08:00+08:00,41.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1263,2026-09-03T10:19:00+08:00,13.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1985,2026-09-03T10:19:00+08:00,20.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1306,2026-09-03T10:22:00+08:00,8.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1387,2026-09-03T10:22:00+08:00,1.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1441,2026-09-03T10:28:00+08:00,6.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1478,2026-09-03T10:28:00+08:00,7.0,烟气净化区,0,train,0,0,below_selected_age_threshold
+1728,2026-09-03T10:37:00+08:00,13.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1668,2026-09-03T10:48:00+08:00,50.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1596,2026-09-03T10:50:00+08:00,6.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1081,2026-09-03T11:01:00+08:00,9.0,一号机组区,,train,0,,below_selected_age_threshold
+1370,2026-09-03T11:04:00+08:00,13.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1002,2026-09-03T11:10:00+08:00,46.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1289,2026-09-03T11:12:00+08:00,52.0,输煤转运站,,train,1,,telemetry_age_minutes >= 15
+1468,2026-09-03T11:19:00+08:00,8.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+2072,2026-09-03T11:22:00+08:00,4.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1165,2026-09-03T11:32:00+08:00,9.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1043,2026-09-03T11:34:00+08:00,4.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1330,2026-09-03T11:35:00+08:00,9.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1525,2026-09-03T11:35:00+08:00,65.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1324,2026-09-03T11:39:00+08:00,7.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1429,2026-09-03T11:45:00+08:00,5.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1941,2026-09-03T11:48:00+08:00,10.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1288,2026-09-03T11:52:00+08:00,0.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1102,2026-09-03T11:53:00+08:00,30.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1592,2026-09-03T12:01:00+08:00,8.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1693,2026-09-03T12:05:00+08:00,17.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1698,2026-09-03T12:12:00+08:00,11.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1720,2026-09-03T12:21:00+08:00,45.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1310,2026-09-03T12:23:00+08:00,65.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+2086,2026-09-03T12:32:00+08:00,6.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1426,2026-09-03T12:33:00+08:00,41.0,烟气净化区,,train,1,,telemetry_age_minutes >= 15
+1150,2026-09-03T12:46:00+08:00,0.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1269,2026-09-03T12:50:00+08:00,6.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1409,2026-09-03T12:50:00+08:00,9.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1217,2026-09-03T12:52:00+08:00,2.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1010,2026-09-03T12:58:00+08:00,11.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1964,2026-09-03T13:00:00+08:00,57.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1408,2026-09-03T13:06:00+08:00,10.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1629,2026-09-03T13:11:00+08:00,32.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1791,2026-09-03T13:13:00+08:00,3.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1246,2026-09-03T13:15:00+08:00,2.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1902,2026-09-03T13:18:00+08:00,1.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1665,2026-09-03T13:19:00+08:00,2.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1079,2026-09-03T13:25:00+08:00,8.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1059,2026-09-03T13:32:00+08:00,10.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1493,2026-09-03T13:37:00+08:00,3.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1833,2026-09-03T13:55:00+08:00,2.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1143,2026-09-03T14:03:00+08:00,56.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1082,2026-09-03T14:09:00+08:00,10.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1860,2026-09-03T14:10:00+08:00,0.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1531,2026-09-03T14:12:00+08:00,2.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1522,2026-09-03T14:17:00+08:00,65.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1593,2026-09-03T14:21:00+08:00,25.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1098,2026-09-03T14:35:00+08:00,12.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+2020,2026-09-03T14:35:00+08:00,43.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1878,2026-09-03T14:40:00+08:00,19.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1539,2026-09-03T14:51:00+08:00,45.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1609,2026-09-03T15:07:00+08:00,1.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1602,2026-09-03T15:12:00+08:00,8.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1608,2026-09-03T15:15:00+08:00,6.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1072,2026-09-03T15:24:00+08:00,11.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1185,2026-09-03T15:38:00+08:00,7.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1315,2026-09-03T15:40:00+08:00,13.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+2047,2026-09-03T15:45:00+08:00,42.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1162,2026-09-03T15:55:00+08:00,8.0,水处理车间,,train,0,,below_selected_age_threshold
+1614,2026-09-03T16:17:00+08:00,56.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1920,2026-09-03T16:29:00+08:00,9.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1252,2026-09-03T16:31:00+08:00,10.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1686,2026-09-03T16:35:00+08:00,3.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1955,2026-09-03T16:37:00+08:00,4.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1574,2026-09-03T16:45:00+08:00,57.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1915,2026-09-03T16:50:00+08:00,32.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+2061,2026-09-03T17:04:00+08:00,2.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1937,2026-09-03T17:05:00+08:00,12.0,一号机组区,1,train,0,0,below_selected_age_threshold
+2045,2026-09-03T17:08:00+08:00,6.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1942,2026-09-03T17:10:00+08:00,12.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1736,2026-09-03T17:14:00+08:00,1.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1058,2026-09-03T17:21:00+08:00,30.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+2011,2026-09-03T17:24:00+08:00,7.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1279,2026-09-03T17:38:00+08:00,7.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1823,2026-09-03T17:39:00+08:00,9.0,水处理车间,0,train,0,0,below_selected_age_threshold
+2043,2026-09-03T17:45:00+08:00,10.0,烟气净化区,0,train,0,0,below_selected_age_threshold
+1090,2026-09-03T17:51:00+08:00,8.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1532,2026-09-03T17:53:00+08:00,13.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1824,2026-09-03T18:07:00+08:00,5.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1949,2026-09-03T18:08:00+08:00,6.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1817,2026-09-03T18:10:00+08:00,64.0,一号机组区,,train,1,,telemetry_age_minutes >= 15
+1656,2026-09-03T18:19:00+08:00,55.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1053,2026-09-03T18:23:00+08:00,3.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1545,2026-09-03T18:25:00+08:00,13.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1781,2026-09-03T18:48:00+08:00,32.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1548,2026-09-03T18:53:00+08:00,40.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1325,2026-09-03T18:54:00+08:00,51.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1796,2026-09-03T18:58:00+08:00,13.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1530,2026-09-03T19:05:00+08:00,8.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1772,2026-09-03T19:22:00+08:00,47.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1212,2026-09-03T19:28:00+08:00,49.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1674,2026-09-03T19:30:00+08:00,52.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1771,2026-09-03T19:37:00+08:00,5.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1605,2026-09-03T19:42:00+08:00,7.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1876,2026-09-03T19:42:00+08:00,22.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1832,2026-09-03T19:44:00+08:00,35.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1391,2026-09-03T19:45:00+08:00,7.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1039,2026-09-03T19:51:00+08:00,1.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1077,2026-09-03T19:57:00+08:00,4.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1543,2026-09-03T20:01:00+08:00,12.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1684,2026-09-03T20:03:00+08:00,12.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1702,2026-09-03T20:04:00+08:00,0.0,一号机组区,,train,0,,below_selected_age_threshold
+1006,2026-09-03T20:06:00+08:00,13.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1105,2026-09-03T20:16:00+08:00,5.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1347,2026-09-03T20:17:00+08:00,65.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+2039,2026-09-03T20:17:00+08:00,1.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1513,2026-09-03T20:18:00+08:00,6.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1138,2026-09-03T20:26:00+08:00,34.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1961,2026-09-03T20:38:00+08:00,4.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1197,2026-09-03T20:43:00+08:00,59.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1027,2026-09-03T20:44:00+08:00,0.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1130,2026-09-03T20:45:00+08:00,4.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1536,2026-09-03T20:47:00+08:00,7.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1203,2026-09-03T20:51:00+08:00,9.0,烟气净化区,0,train,0,0,below_selected_age_threshold
+2070,2026-09-03T21:14:00+08:00,1.0,二号机组区,1,train,0,0,below_selected_age_threshold
+2015,2026-09-03T21:28:00+08:00,32.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1500,2026-09-03T21:30:00+08:00,5.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1230,2026-09-03T21:33:00+08:00,21.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1367,2026-09-03T21:43:00+08:00,47.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1516,2026-09-03T21:43:00+08:00,13.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1261,2026-09-03T21:53:00+08:00,9.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1296,2026-09-03T21:57:00+08:00,12.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1829,2026-09-04T07:20:00+08:00,10.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1492,2026-09-04T07:21:00+08:00,11.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1342,2026-09-04T07:38:00+08:00,1.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1377,2026-09-04T07:39:00+08:00,9.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+2038,2026-09-04T07:53:00+08:00,11.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1177,2026-09-04T08:02:00+08:00,1.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1397,2026-09-04T08:02:00+08:00,58.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1762,2026-09-04T08:10:00+08:00,7.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1651,2026-09-04T08:14:00+08:00,2.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1831,2026-09-04T08:25:00+08:00,6.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1708,2026-09-04T08:29:00+08:00,9.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1052,2026-09-04T08:32:00+08:00,18.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1255,2026-09-04T08:34:00+08:00,4.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1350,2026-09-04T08:35:00+08:00,43.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1194,2026-09-04T08:49:00+08:00,5.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1049,2026-09-04T09:01:00+08:00,53.0,烟气净化区,0,train,1,1,telemetry_age_minutes >= 15
+1463,2026-09-04T09:19:00+08:00,8.0,二号机组区,1,train,0,0,below_selected_age_threshold
+2000,2026-09-04T09:19:00+08:00,10.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1046,2026-09-04T09:25:00+08:00,0.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1972,2026-09-04T09:25:00+08:00,4.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1739,2026-09-04T09:29:00+08:00,0.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1726,2026-09-04T09:38:00+08:00,46.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1643,2026-09-04T09:54:00+08:00,2.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1874,2026-09-04T09:57:00+08:00,6.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1390,2026-09-04T10:02:00+08:00,8.0,水处理车间,1,train,0,0,below_selected_age_threshold
+2076,2026-09-04T10:06:00+08:00,24.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1983,2026-09-04T10:09:00+08:00,9.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1394,2026-09-04T10:10:00+08:00,64.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1066,2026-09-04T10:11:00+08:00,48.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1571,2026-09-04T10:15:00+08:00,11.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1970,2026-09-04T10:19:00+08:00,34.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1113,2026-09-04T10:22:00+08:00,4.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1089,2026-09-04T10:25:00+08:00,1.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1950,2026-09-04T10:30:00+08:00,1.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1007,2026-09-04T10:37:00+08:00,6.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1087,2026-09-04T10:46:00+08:00,48.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1727,2026-09-04T10:54:00+08:00,9.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1546,2026-09-04T11:10:00+08:00,47.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1425,2026-09-04T11:12:00+08:00,0.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1159,2026-09-04T11:22:00+08:00,57.0,输煤转运站,,train,1,,telemetry_age_minutes >= 15
+1024,2026-09-04T11:33:00+08:00,8.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1222,2026-09-04T11:38:00+08:00,10.0,二号机组区,,train,0,,below_selected_age_threshold
+1636,2026-09-04T11:39:00+08:00,4.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1225,2026-09-04T11:41:00+08:00,3.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+2017,2026-09-04T11:43:00+08:00,13.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1895,2026-09-04T12:19:00+08:00,10.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+2073,2026-09-04T12:26:00+08:00,3.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1866,2026-09-04T12:28:00+08:00,65.0,烟气净化区,0,train,1,1,telemetry_age_minutes >= 15
+1152,2026-09-04T12:34:00+08:00,52.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1659,2026-09-04T12:36:00+08:00,57.0,输煤转运站,1,train,1,0,telemetry_age_minutes >= 15
+2074,2026-09-04T12:36:00+08:00,3.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1018,2026-09-04T12:42:00+08:00,21.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1734,2026-09-04T12:45:00+08:00,3.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1451,2026-09-04T12:56:00+08:00,22.0,水处理车间,0,train,1,1,telemetry_age_minutes >= 15
+1128,2026-09-04T13:00:00+08:00,5.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1305,2026-09-04T13:01:00+08:00,5.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1844,2026-09-04T13:01:00+08:00,6.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+2018,2026-09-04T13:03:00+08:00,6.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1158,2026-09-04T13:08:00+08:00,25.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1363,2026-09-04T13:08:00+08:00,2.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1275,2026-09-04T13:13:00+08:00,24.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1687,2026-09-04T13:17:00+08:00,12.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1229,2026-09-04T13:18:00+08:00,2.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1818,2026-09-04T13:24:00+08:00,49.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1778,2026-09-04T13:27:00+08:00,7.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1093,2026-09-04T13:29:00+08:00,50.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1938,2026-09-04T13:42:00+08:00,1.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1419,2026-09-04T13:47:00+08:00,12.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1620,2026-09-04T13:48:00+08:00,6.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1585,2026-09-04T13:51:00+08:00,7.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1559,2026-09-04T13:58:00+08:00,12.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1913,2026-09-04T14:00:00+08:00,11.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1243,2026-09-04T14:03:00+08:00,7.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1234,2026-09-04T14:04:00+08:00,6.0,水处理车间,1,train,0,0,below_selected_age_threshold
+2050,2026-09-04T14:12:00+08:00,36.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1715,2026-09-04T14:14:00+08:00,4.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1223,2026-09-04T14:18:00+08:00,10.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1238,2026-09-04T14:28:00+08:00,10.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1678,2026-09-04T14:29:00+08:00,2.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1879,2026-09-04T14:35:00+08:00,4.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1537,2026-09-04T14:39:00+08:00,8.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1716,2026-09-04T14:41:00+08:00,13.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1951,2026-09-04T14:48:00+08:00,30.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1188,2026-09-04T14:50:00+08:00,12.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1348,2026-09-04T14:52:00+08:00,0.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1037,2026-09-04T15:00:00+08:00,13.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1199,2026-09-04T15:08:00+08:00,3.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1186,2026-09-04T15:16:00+08:00,52.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1967,2026-09-04T15:25:00+08:00,2.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1615,2026-09-04T15:27:00+08:00,7.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1908,2026-09-04T15:36:00+08:00,10.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1973,2026-09-04T15:39:00+08:00,4.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1939,2026-09-04T15:48:00+08:00,6.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1420,2026-09-04T15:55:00+08:00,13.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1455,2026-09-04T16:08:00+08:00,64.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1170,2026-09-04T16:17:00+08:00,5.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1191,2026-09-04T16:17:00+08:00,3.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1780,2026-09-04T16:18:00+08:00,2.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1088,2026-09-04T16:21:00+08:00,3.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1820,2026-09-04T16:21:00+08:00,8.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1183,2026-09-04T16:29:00+08:00,11.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+2033,2026-09-04T16:34:00+08:00,11.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1869,2026-09-04T16:39:00+08:00,4.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1595,2026-09-04T16:41:00+08:00,22.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1068,2026-09-04T16:48:00+08:00,2.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1953,2026-09-04T17:09:00+08:00,7.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1975,2026-09-04T17:12:00+08:00,63.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1888,2026-09-04T17:23:00+08:00,8.0,烟气净化区,1,train,0,0,below_selected_age_threshold
+1375,2026-09-04T17:43:00+08:00,56.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1294,2026-09-04T17:44:00+08:00,28.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1459,2026-09-04T17:53:00+08:00,24.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1319,2026-09-04T17:57:00+08:00,0.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1527,2026-09-04T17:59:00+08:00,54.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1600,2026-09-04T18:00:00+08:00,2.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1567,2026-09-04T18:03:00+08:00,0.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1754,2026-09-04T18:09:00+08:00,12.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1517,2026-09-04T18:14:00+08:00,2.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1297,2026-09-04T18:15:00+08:00,7.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1746,2026-09-04T18:15:00+08:00,0.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1200,2026-09-04T18:17:00+08:00,0.0,输煤转运站,,train,0,,below_selected_age_threshold
+1510,2026-09-04T18:26:00+08:00,8.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1773,2026-09-04T18:30:00+08:00,48.0,一号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1218,2026-09-04T18:31:00+08:00,0.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1321,2026-09-04T18:42:00+08:00,7.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1173,2026-09-04T18:46:00+08:00,38.0,烟气净化区,0,train,1,1,telemetry_age_minutes >= 15
+1383,2026-09-04T18:48:00+08:00,9.0,一号机组区,0,train,0,0,below_selected_age_threshold
+2052,2026-09-04T18:50:00+08:00,49.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+2099,2026-09-04T18:50:00+08:00,1.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1281,2026-09-04T19:07:00+08:00,52.0,二号机组区,1,train,1,0,telemetry_age_minutes >= 15
+2041,2026-09-04T19:07:00+08:00,8.0,二号机组区,,train,0,,below_selected_age_threshold
+1519,2026-09-04T19:24:00+08:00,5.0,输煤转运站,,train,0,,below_selected_age_threshold
+1466,2026-09-04T19:40:00+08:00,4.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1929,2026-09-04T19:48:00+08:00,11.0,一号机组区,1,train,0,0,below_selected_age_threshold
+1244,2026-09-04T19:50:00+08:00,24.0,烟气净化区,1,train,1,0,telemetry_age_minutes >= 15
+1099,2026-09-04T20:06:00+08:00,1.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1171,2026-09-04T20:14:00+08:00,39.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1254,2026-09-04T20:18:00+08:00,2.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1291,2026-09-04T20:18:00+08:00,20.0,一号机组区,1,train,1,0,telemetry_age_minutes >= 15
+1776,2026-09-04T20:33:00+08:00,6.0,一号机组区,1,train,0,0,below_selected_age_threshold
+2097,2026-09-04T20:35:00+08:00,32.0,二号机组区,0,train,1,1,telemetry_age_minutes >= 15
+1496,2026-09-04T20:53:00+08:00,13.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1047,2026-09-04T20:54:00+08:00,27.0,输煤转运站,0,train,1,1,telemetry_age_minutes >= 15
+1450,2026-09-04T20:55:00+08:00,5.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1642,2026-09-04T21:17:00+08:00,8.0,输煤转运站,1,train,0,0,below_selected_age_threshold
+1556,2026-09-04T21:23:00+08:00,20.0,水处理车间,1,train,1,0,telemetry_age_minutes >= 15
+1467,2026-09-04T21:33:00+08:00,0.0,二号机组区,1,train,0,0,below_selected_age_threshold
+1253,2026-09-04T21:42:00+08:00,52.0,烟气净化区,0,train,1,1,telemetry_age_minutes >= 15
+1801,2026-09-04T21:52:00+08:00,13.0,水处理车间,1,train,0,0,below_selected_age_threshold
+1611,2026-09-05T07:06:00+08:00,11.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1412,2026-09-05T07:07:00+08:00,10.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1940,2026-09-05T07:15:00+08:00,26.0,二号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1606,2026-09-05T07:21:00+08:00,4.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1662,2026-09-05T07:28:00+08:00,38.0,一号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+2021,2026-09-05T07:29:00+08:00,53.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1423,2026-09-05T07:33:00+08:00,26.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1340,2026-09-05T07:35:00+08:00,4.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1952,2026-09-05T07:45:00+08:00,2.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1968,2026-09-05T07:47:00+08:00,9.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+2006,2026-09-05T07:47:00+08:00,5.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1741,2026-09-05T08:05:00+08:00,19.0,二号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+2095,2026-09-05T08:08:00+08:00,5.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1489,2026-09-05T08:09:00+08:00,2.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1430,2026-09-05T08:17:00+08:00,3.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1481,2026-09-05T08:17:00+08:00,51.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1431,2026-09-05T08:29:00+08:00,2.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1216,2026-09-05T08:30:00+08:00,2.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1123,2026-09-05T08:31:00+08:00,9.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1566,2026-09-05T08:31:00+08:00,8.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1660,2026-09-05T08:31:00+08:00,4.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1410,2026-09-05T08:35:00+08:00,53.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+1689,2026-09-05T08:35:00+08:00,58.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+1534,2026-09-05T08:51:00+08:00,1.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1815,2026-09-05T08:55:00+08:00,10.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+2090,2026-09-05T08:59:00+08:00,48.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1647,2026-09-05T09:02:00+08:00,27.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1051,2026-09-05T09:08:00+08:00,2.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1932,2026-09-05T09:09:00+08:00,47.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1958,2026-09-05T09:12:00+08:00,19.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1069,2026-09-05T09:15:00+08:00,12.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1978,2026-09-05T09:16:00+08:00,64.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+1369,2026-09-05T09:21:00+08:00,10.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1995,2026-09-05T09:35:00+08:00,38.0,输煤转运站,0,holdout,1,1,telemetry_age_minutes >= 15
+1790,2026-09-05T09:38:00+08:00,1.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1483,2026-09-05T09:53:00+08:00,40.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+2042,2026-09-05T09:58:00+08:00,51.0,二号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+2053,2026-09-05T09:59:00+08:00,27.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+2054,2026-09-05T10:00:00+08:00,13.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+2106,2026-09-05T10:03:00+08:00,13.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+2058,2026-09-05T10:15:00+08:00,6.0,烟气净化区,0,holdout,0,0,below_selected_age_threshold
+1901,2026-09-05T10:20:00+08:00,42.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1250,2026-09-05T10:27:00+08:00,8.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1547,2026-09-05T10:33:00+08:00,0.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1418,2026-09-05T10:36:00+08:00,12.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1555,2026-09-05T10:38:00+08:00,5.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1405,2026-09-05T10:41:00+08:00,8.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1732,2026-09-05T10:47:00+08:00,50.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1361,2026-09-05T10:57:00+08:00,2.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1241,2026-09-05T11:10:00+08:00,27.0,烟气净化区,,holdout,1,,telemetry_age_minutes >= 15
+1682,2026-09-05T11:20:00+08:00,9.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1926,2026-09-05T11:22:00+08:00,24.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+2029,2026-09-05T11:25:00+08:00,57.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1980,2026-09-05T11:27:00+08:00,10.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1121,2026-09-05T11:30:00+08:00,7.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1432,2026-09-05T11:48:00+08:00,4.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1136,2026-09-05T11:50:00+08:00,5.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1782,2026-09-05T11:58:00+08:00,4.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1622,2026-09-05T11:59:00+08:00,2.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1910,2026-09-05T11:59:00+08:00,7.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1120,2026-09-05T12:00:00+08:00,8.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1897,2026-09-05T12:02:00+08:00,1.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1076,2026-09-05T12:09:00+08:00,60.0,一号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1005,2026-09-05T12:18:00+08:00,5.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1328,2026-09-05T12:20:00+08:00,0.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1794,2026-09-05T12:20:00+08:00,42.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1914,2026-09-05T12:27:00+08:00,10.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1508,2026-09-05T12:29:00+08:00,20.0,输煤转运站,0,holdout,1,1,telemetry_age_minutes >= 15
+1074,2026-09-05T12:30:00+08:00,12.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1808,2026-09-05T12:31:00+08:00,13.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1616,2026-09-05T12:39:00+08:00,4.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+2027,2026-09-05T12:44:00+08:00,12.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1464,2026-09-05T12:51:00+08:00,5.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1424,2026-09-05T12:52:00+08:00,3.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+2064,2026-09-05T12:52:00+08:00,8.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1125,2026-09-05T13:01:00+08:00,62.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1703,2026-09-05T13:06:00+08:00,6.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1947,2026-09-05T13:10:00+08:00,8.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1819,2026-09-05T13:16:00+08:00,4.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1694,2026-09-05T13:25:00+08:00,47.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1096,2026-09-05T13:30:00+08:00,0.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1086,2026-09-05T13:40:00+08:00,12.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1196,2026-09-05T13:45:00+08:00,6.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1300,2026-09-05T13:47:00+08:00,60.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+1784,2026-09-05T13:56:00+08:00,59.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+2088,2026-09-05T13:57:00+08:00,33.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+1701,2026-09-05T14:00:00+08:00,7.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1697,2026-09-05T14:09:00+08:00,1.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1448,2026-09-05T14:27:00+08:00,11.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1956,2026-09-05T14:33:00+08:00,2.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1422,2026-09-05T14:39:00+08:00,13.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1003,2026-09-05T14:55:00+08:00,35.0,二号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1490,2026-09-05T15:00:00+08:00,4.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1103,2026-09-05T15:05:00+08:00,0.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1800,2026-09-05T15:09:00+08:00,7.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1936,2026-09-05T15:27:00+08:00,10.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1374,2026-09-05T15:31:00+08:00,50.0,二号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1690,2026-09-05T15:34:00+08:00,0.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1680,2026-09-05T15:44:00+08:00,12.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1825,2026-09-05T15:46:00+08:00,60.0,输煤转运站,0,holdout,1,1,telemetry_age_minutes >= 15
+2056,2026-09-05T15:48:00+08:00,50.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1564,2026-09-05T15:59:00+08:00,11.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1206,2026-09-05T16:04:00+08:00,0.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1480,2026-09-05T16:15:00+08:00,7.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1584,2026-09-05T16:31:00+08:00,46.0,一号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1661,2026-09-05T16:31:00+08:00,11.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1435,2026-09-05T16:37:00+08:00,8.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1699,2026-09-05T16:38:00+08:00,8.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1987,2026-09-05T16:45:00+08:00,9.0,烟气净化区,,holdout,0,,below_selected_age_threshold
+1184,2026-09-05T16:48:00+08:00,49.0,二号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1356,2026-09-05T16:48:00+08:00,25.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1264,2026-09-05T16:55:00+08:00,22.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+1989,2026-09-05T16:55:00+08:00,5.0,一号机组区,0,holdout,0,0,below_selected_age_threshold
+2026,2026-09-05T16:56:00+08:00,5.0,水处理车间,,holdout,0,,below_selected_age_threshold
+1943,2026-09-05T17:01:00+08:00,5.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1236,2026-09-05T17:03:00+08:00,12.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+2062,2026-09-05T17:05:00+08:00,9.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1994,2026-09-05T17:13:00+08:00,6.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1553,2026-09-05T17:15:00+08:00,21.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+1529,2026-09-05T17:21:00+08:00,11.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1658,2026-09-05T17:23:00+08:00,9.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+2081,2026-09-05T17:23:00+08:00,0.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1646,2026-09-05T17:36:00+08:00,4.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1298,2026-09-05T17:37:00+08:00,59.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+1743,2026-09-05T17:40:00+08:00,50.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1891,2026-09-05T17:50:00+08:00,6.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+2009,2026-09-05T17:59:00+08:00,8.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1030,2026-09-05T18:02:00+08:00,0.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1362,2026-09-05T18:05:00+08:00,10.0,一号机组区,0,holdout,0,0,below_selected_age_threshold
+1610,2026-09-05T18:05:00+08:00,5.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1380,2026-09-05T18:06:00+08:00,8.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1208,2026-09-05T18:13:00+08:00,65.0,二号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1213,2026-09-05T18:22:00+08:00,63.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1868,2026-09-05T18:26:00+08:00,0.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1436,2026-09-05T18:31:00+08:00,9.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1278,2026-09-05T18:40:00+08:00,57.0,二号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1851,2026-09-05T18:47:00+08:00,10.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1582,2026-09-05T18:59:00+08:00,63.0,一号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+2023,2026-09-05T19:09:00+08:00,1.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1798,2026-09-05T19:14:00+08:00,20.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+1445,2026-09-05T19:21:00+08:00,13.0,烟气净化区,0,holdout,0,0,below_selected_age_threshold
+1101,2026-09-05T19:25:00+08:00,11.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1148,2026-09-05T19:39:00+08:00,5.0,二号机组区,,holdout,0,,below_selected_age_threshold
+1474,2026-09-05T19:39:00+08:00,4.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1607,2026-09-05T19:54:00+08:00,6.0,水处理车间,,holdout,0,,below_selected_age_threshold
+1812,2026-09-05T19:55:00+08:00,4.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1260,2026-09-05T20:07:00+08:00,4.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1714,2026-09-05T20:09:00+08:00,12.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1775,2026-09-05T20:09:00+08:00,8.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1303,2026-09-05T20:16:00+08:00,5.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1309,2026-09-05T20:28:00+08:00,3.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1067,2026-09-05T20:31:00+08:00,38.0,烟气净化区,0,holdout,1,1,telemetry_age_minutes >= 15
+1242,2026-09-05T20:40:00+08:00,4.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1652,2026-09-05T20:43:00+08:00,17.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+1182,2026-09-05T20:45:00+08:00,27.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1460,2026-09-05T20:55:00+08:00,51.0,输煤转运站,0,holdout,1,1,telemetry_age_minutes >= 15
+1360,2026-09-05T21:01:00+08:00,6.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1160,2026-09-05T21:03:00+08:00,3.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1406,2026-09-05T21:06:00+08:00,28.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1505,2026-09-05T21:08:00+08:00,12.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1924,2026-09-05T21:15:00+08:00,2.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1813,2026-09-05T21:22:00+08:00,12.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+2046,2026-09-05T21:35:00+08:00,13.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1454,2026-09-05T21:36:00+08:00,27.0,二号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1042,2026-09-05T21:37:00+08:00,5.0,输煤转运站,,holdout,0,,below_selected_age_threshold
+1054,2026-09-05T21:38:00+08:00,5.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1155,2026-09-05T21:43:00+08:00,31.0,二号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1673,2026-09-05T21:58:00+08:00,0.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1713,2026-09-06T07:00:00+08:00,35.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1779,2026-09-06T07:03:00+08:00,12.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1386,2026-09-06T07:04:00+08:00,8.0,烟气净化区,0,holdout,0,0,below_selected_age_threshold
+1401,2026-09-06T07:05:00+08:00,20.0,一号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1484,2026-09-06T07:14:00+08:00,12.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1904,2026-09-06T07:15:00+08:00,41.0,一号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1512,2026-09-06T07:17:00+08:00,11.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1644,2026-09-06T07:30:00+08:00,1.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1104,2026-09-06T07:32:00+08:00,13.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1518,2026-09-06T07:33:00+08:00,7.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1135,2026-09-06T07:46:00+08:00,4.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+2051,2026-09-06T07:52:00+08:00,0.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1889,2026-09-06T08:03:00+08:00,57.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1381,2026-09-06T08:05:00+08:00,58.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+2102,2026-09-06T08:14:00+08:00,0.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1731,2026-09-06T08:16:00+08:00,50.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1393,2026-09-06T08:20:00+08:00,56.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1552,2026-09-06T08:23:00+08:00,2.0,二号机组区,,holdout,0,,below_selected_age_threshold
+1786,2026-09-06T08:24:00+08:00,11.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1411,2026-09-06T08:31:00+08:00,58.0,二号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1758,2026-09-06T08:34:00+08:00,12.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1465,2026-09-06T08:43:00+08:00,12.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1078,2026-09-06T08:44:00+08:00,6.0,烟气净化区,,holdout,0,,below_selected_age_threshold
+1395,2026-09-06T08:50:00+08:00,10.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1035,2026-09-06T08:54:00+08:00,12.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1984,2026-09-06T08:57:00+08:00,5.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1164,2026-09-06T09:05:00+08:00,6.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1843,2026-09-06T09:08:00+08:00,12.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1071,2026-09-06T09:16:00+08:00,11.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1960,2026-09-06T09:17:00+08:00,2.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1993,2026-09-06T09:30:00+08:00,4.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1653,2026-09-06T09:37:00+08:00,19.0,输煤转运站,0,holdout,1,1,telemetry_age_minutes >= 15
+1265,2026-09-06T09:38:00+08:00,11.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1009,2026-09-06T09:49:00+08:00,5.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1439,2026-09-06T09:52:00+08:00,4.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1692,2026-09-06T09:56:00+08:00,11.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1514,2026-09-06T09:59:00+08:00,2.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1290,2026-09-06T10:06:00+08:00,8.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+2101,2026-09-06T10:07:00+08:00,42.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+1247,2026-09-06T10:16:00+08:00,25.0,二号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1735,2026-09-06T10:19:00+08:00,52.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1912,2026-09-06T10:28:00+08:00,6.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1830,2026-09-06T10:29:00+08:00,47.0,烟气净化区,0,holdout,1,1,telemetry_age_minutes >= 15
+1344,2026-09-06T10:39:00+08:00,7.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1755,2026-09-06T10:43:00+08:00,12.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+2091,2026-09-06T10:43:00+08:00,10.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1683,2026-09-06T10:45:00+08:00,0.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1111,2026-09-06T10:50:00+08:00,6.0,水处理车间,0,holdout,0,0,below_selected_age_threshold
+1440,2026-09-06T10:51:00+08:00,5.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1065,2026-09-06T10:56:00+08:00,6.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1821,2026-09-06T10:56:00+08:00,11.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+2005,2026-09-06T10:57:00+08:00,37.0,输煤转运站,0,holdout,1,1,telemetry_age_minutes >= 15
+1573,2026-09-06T10:59:00+08:00,1.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1311,2026-09-06T11:01:00+08:00,10.0,二号机组区,,holdout,0,,below_selected_age_threshold
+1770,2026-09-06T11:01:00+08:00,5.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1339,2026-09-06T11:13:00+08:00,48.0,二号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1639,2026-09-06T11:14:00+08:00,39.0,输煤转运站,0,holdout,1,1,telemetry_age_minutes >= 15
+1488,2026-09-06T11:15:00+08:00,12.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1729,2026-09-06T11:17:00+08:00,6.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1285,2026-09-06T11:20:00+08:00,64.0,一号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1231,2026-09-06T11:28:00+08:00,3.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1205,2026-09-06T11:30:00+08:00,3.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1336,2026-09-06T11:30:00+08:00,5.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+2001,2026-09-06T11:31:00+08:00,0.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1388,2026-09-06T11:38:00+08:00,19.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+2025,2026-09-06T11:41:00+08:00,6.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1946,2026-09-06T11:43:00+08:00,3.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1118,2026-09-06T11:47:00+08:00,11.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1353,2026-09-06T11:47:00+08:00,34.0,输煤转运站,0,holdout,1,1,telemetry_age_minutes >= 15
+1695,2026-09-06T11:49:00+08:00,12.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1139,2026-09-06T11:57:00+08:00,9.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1685,2026-09-06T11:58:00+08:00,0.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1316,2026-09-06T12:06:00+08:00,1.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1277,2026-09-06T12:07:00+08:00,13.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1453,2026-09-06T12:09:00+08:00,1.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1248,2026-09-06T12:21:00+08:00,1.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1048,2026-09-06T12:23:00+08:00,61.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1963,2026-09-06T12:34:00+08:00,24.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1909,2026-09-06T12:40:00+08:00,9.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1521,2026-09-06T12:43:00+08:00,53.0,输煤转运站,0,holdout,1,1,telemetry_age_minutes >= 15
+1167,2026-09-06T12:44:00+08:00,6.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1846,2026-09-06T12:44:00+08:00,2.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+2049,2026-09-06T12:55:00+08:00,5.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1287,2026-09-06T12:59:00+08:00,45.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+1040,2026-09-06T13:03:00+08:00,7.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1599,2026-09-06T13:03:00+08:00,56.0,二号机组区,,holdout,1,,telemetry_age_minutes >= 15
+2004,2026-09-06T13:03:00+08:00,36.0,二号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1399,2026-09-06T13:04:00+08:00,7.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1979,2026-09-06T13:07:00+08:00,6.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1705,2026-09-06T13:10:00+08:00,0.0,二号机组区,0,holdout,0,0,below_selected_age_threshold
+1398,2026-09-06T13:18:00+08:00,28.0,一号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1588,2026-09-06T13:24:00+08:00,9.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1119,2026-09-06T13:32:00+08:00,9.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1619,2026-09-06T13:36:00+08:00,46.0,一号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1415,2026-09-06T13:53:00+08:00,5.0,二号机组区,0,holdout,0,0,below_selected_age_threshold
+1855,2026-09-06T13:53:00+08:00,8.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1613,2026-09-06T13:56:00+08:00,21.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+1469,2026-09-06T13:58:00+08:00,9.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1549,2026-09-06T14:02:00+08:00,6.0,烟气净化区,0,holdout,0,0,below_selected_age_threshold
+2032,2026-09-06T14:07:00+08:00,12.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1323,2026-09-06T14:08:00+08:00,49.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+1877,2026-09-06T14:08:00+08:00,63.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1384,2026-09-06T14:14:00+08:00,5.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+2019,2026-09-06T14:16:00+08:00,0.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1499,2026-09-06T14:37:00+08:00,39.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+1385,2026-09-06T14:41:00+08:00,7.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1023,2026-09-06T14:45:00+08:00,8.0,水处理车间,0,holdout,0,0,below_selected_age_threshold
+1890,2026-09-06T14:46:00+08:00,3.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1144,2026-09-06T15:02:00+08:00,3.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1828,2026-09-06T15:11:00+08:00,7.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1645,2026-09-06T15:14:00+08:00,5.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1666,2026-09-06T15:18:00+08:00,7.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1174,2026-09-06T15:21:00+08:00,4.0,一号机组区,0,holdout,0,0,below_selected_age_threshold
+1885,2026-09-06T15:21:00+08:00,1.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1179,2026-09-06T15:54:00+08:00,2.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1503,2026-09-06T16:03:00+08:00,24.0,水处理车间,,holdout,1,,telemetry_age_minutes >= 15
+1486,2026-09-06T16:15:00+08:00,54.0,输煤转运站,0,holdout,1,1,telemetry_age_minutes >= 15
+2057,2026-09-06T16:21:00+08:00,11.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1917,2026-09-06T16:23:00+08:00,17.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1312,2026-09-06T16:28:00+08:00,0.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1396,2026-09-06T16:30:00+08:00,13.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1580,2026-09-06T16:33:00+08:00,21.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1149,2026-09-06T16:34:00+08:00,38.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+1301,2026-09-06T16:36:00+08:00,7.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1366,2026-09-06T16:36:00+08:00,12.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+2103,2026-09-06T16:37:00+08:00,6.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1228,2026-09-06T16:38:00+08:00,31.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+1892,2026-09-06T16:46:00+08:00,59.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1151,2026-09-06T16:50:00+08:00,1.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1097,2026-09-06T17:06:00+08:00,6.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1520,2026-09-06T17:08:00+08:00,7.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1504,2026-09-06T17:25:00+08:00,11.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1447,2026-09-06T17:26:00+08:00,3.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1969,2026-09-06T17:26:00+08:00,61.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+2031,2026-09-06T17:26:00+08:00,11.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1744,2026-09-06T17:33:00+08:00,3.0,烟气净化区,0,holdout,0,0,below_selected_age_threshold
+1761,2026-09-06T17:34:00+08:00,13.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1193,2026-09-06T17:41:00+08:00,8.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+2014,2026-09-06T17:45:00+08:00,12.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1245,2026-09-06T17:47:00+08:00,7.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1479,2026-09-06T17:48:00+08:00,36.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+1061,2026-09-06T17:55:00+08:00,21.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1270,2026-09-06T17:59:00+08:00,9.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1788,2026-09-06T18:17:00+08:00,11.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1064,2026-09-06T18:18:00+08:00,45.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1357,2026-09-06T18:30:00+08:00,6.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1358,2026-09-06T18:42:00+08:00,4.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1201,2026-09-06T18:48:00+08:00,5.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1392,2026-09-06T18:48:00+08:00,10.0,二号机组区,0,holdout,0,0,below_selected_age_threshold
+1421,2026-09-06T18:52:00+08:00,43.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1838,2026-09-06T18:53:00+08:00,52.0,二号机组区,,holdout,1,,telemetry_age_minutes >= 15
+1091,2026-09-06T18:54:00+08:00,1.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1272,2026-09-06T18:56:00+08:00,4.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+2100,2026-09-06T19:12:00+08:00,4.0,输煤转运站,,holdout,0,,below_selected_age_threshold
+1664,2026-09-06T19:20:00+08:00,1.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1268,2026-09-06T19:21:00+08:00,57.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1017,2026-09-06T19:26:00+08:00,7.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1100,2026-09-06T19:33:00+08:00,27.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1025,2026-09-06T19:34:00+08:00,6.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1112,2026-09-06T19:41:00+08:00,5.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1657,2026-09-06T19:41:00+08:00,5.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+2055,2026-09-06T19:41:00+08:00,62.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+1742,2026-09-06T19:51:00+08:00,8.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1583,2026-09-06T19:52:00+08:00,8.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1060,2026-09-06T19:57:00+08:00,12.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1416,2026-09-06T20:09:00+08:00,7.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1598,2026-09-06T20:22:00+08:00,50.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1202,2026-09-06T20:35:00+08:00,10.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1996,2026-09-06T20:38:00+08:00,10.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1777,2026-09-06T20:41:00+08:00,52.0,一号机组区,,holdout,1,,telemetry_age_minutes >= 15
+1845,2026-09-06T20:49:00+08:00,11.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1663,2026-09-06T21:14:00+08:00,7.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+2024,2026-09-06T21:22:00+08:00,3.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1737,2026-09-06T21:27:00+08:00,4.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1219,2026-09-06T21:35:00+08:00,9.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1107,2026-09-06T21:36:00+08:00,4.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1262,2026-09-06T21:43:00+08:00,11.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1012,2026-09-06T21:45:00+08:00,12.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1725,2026-09-06T21:50:00+08:00,6.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1509,2026-09-07T07:00:00+08:00,1.0,二号机组区,,holdout,0,,below_selected_age_threshold
+1712,2026-09-07T07:17:00+08:00,6.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1109,2026-09-07T07:27:00+08:00,10.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1928,2026-09-07T07:34:00+08:00,2.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1718,2026-09-07T07:42:00+08:00,6.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1966,2026-09-07T07:49:00+08:00,6.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1982,2026-09-07T07:58:00+08:00,61.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1304,2026-09-07T08:05:00+08:00,50.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1249,2026-09-07T08:06:00+08:00,9.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1907,2026-09-07T08:20:00+08:00,2.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1501,2026-09-07T08:21:00+08:00,1.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1853,2026-09-07T08:23:00+08:00,11.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1785,2026-09-07T08:37:00+08:00,6.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1638,2026-09-07T08:43:00+08:00,3.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1591,2026-09-07T08:45:00+08:00,5.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1948,2026-09-07T08:54:00+08:00,60.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1677,2026-09-07T08:56:00+08:00,1.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1934,2026-09-07T08:58:00+08:00,12.0,输煤转运站,,holdout,0,,below_selected_age_threshold
+1977,2026-09-07T09:12:00+08:00,3.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1795,2026-09-07T09:16:00+08:00,8.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1633,2026-09-07T09:18:00+08:00,1.0,烟气净化区,,holdout,0,,below_selected_age_threshold
+1922,2026-09-07T09:22:00+08:00,9.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1446,2026-09-07T09:26:00+08:00,55.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1292,2026-09-07T09:48:00+08:00,6.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1822,2026-09-07T10:02:00+08:00,1.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1498,2026-09-07T10:11:00+08:00,17.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1931,2026-09-07T10:13:00+08:00,5.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1075,2026-09-07T10:32:00+08:00,5.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1988,2026-09-07T10:32:00+08:00,64.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+1156,2026-09-07T10:41:00+08:00,7.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1679,2026-09-07T10:54:00+08:00,6.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1634,2026-09-07T10:55:00+08:00,1.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+2063,2026-09-07T10:55:00+08:00,3.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1106,2026-09-07T10:56:00+08:00,1.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+2034,2026-09-07T10:59:00+08:00,0.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1210,2026-09-07T11:07:00+08:00,13.0,水处理车间,,holdout,0,,below_selected_age_threshold
+1070,2026-09-07T11:09:00+08:00,49.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1767,2026-09-07T11:11:00+08:00,8.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1806,2026-09-07T11:12:00+08:00,54.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1671,2026-09-07T11:17:00+08:00,50.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1827,2026-09-07T11:22:00+08:00,5.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1797,2026-09-07T11:30:00+08:00,11.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1632,2026-09-07T11:48:00+08:00,0.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1195,2026-09-07T11:56:00+08:00,12.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1359,2026-09-07T11:56:00+08:00,12.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1313,2026-09-07T12:02:00+08:00,60.0,一号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+2065,2026-09-07T12:03:00+08:00,5.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1587,2026-09-07T12:08:00+08:00,53.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1991,2026-09-07T12:14:00+08:00,20.0,二号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1014,2026-09-07T12:23:00+08:00,4.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1251,2026-09-07T12:26:00+08:00,6.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+2016,2026-09-07T12:35:00+08:00,40.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1000,2026-09-07T12:44:00+08:00,12.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1349,2026-09-07T12:47:00+08:00,7.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1428,2026-09-07T12:48:00+08:00,11.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1019,2026-09-07T12:56:00+08:00,13.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1443,2026-09-07T13:05:00+08:00,1.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1131,2026-09-07T13:08:00+08:00,3.0,水处理车间,,holdout,0,,below_selected_age_threshold
+1233,2026-09-07T13:15:00+08:00,12.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1341,2026-09-07T13:25:00+08:00,0.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1670,2026-09-07T13:25:00+08:00,8.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1896,2026-09-07T13:34:00+08:00,2.0,二号机组区,,holdout,0,,below_selected_age_threshold
+1696,2026-09-07T13:35:00+08:00,7.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1438,2026-09-07T13:59:00+08:00,1.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1882,2026-09-07T14:00:00+08:00,8.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1016,2026-09-07T14:10:00+08:00,4.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1648,2026-09-07T14:23:00+08:00,4.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1783,2026-09-07T14:39:00+08:00,3.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1862,2026-09-07T14:48:00+08:00,11.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1841,2026-09-07T14:52:00+08:00,6.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1597,2026-09-07T14:55:00+08:00,3.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1811,2026-09-07T14:57:00+08:00,3.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1209,2026-09-07T15:00:00+08:00,7.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1449,2026-09-07T15:04:00+08:00,7.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1227,2026-09-07T15:07:00+08:00,6.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1750,2026-09-07T15:14:00+08:00,7.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1351,2026-09-07T15:16:00+08:00,43.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+1364,2026-09-07T15:16:00+08:00,10.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1413,2026-09-07T15:22:00+08:00,49.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1376,2026-09-07T15:23:00+08:00,4.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1345,2026-09-07T15:25:00+08:00,3.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1365,2026-09-07T15:29:00+08:00,1.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1945,2026-09-07T15:30:00+08:00,8.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1826,2026-09-07T15:40:00+08:00,9.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1240,2026-09-07T15:45:00+08:00,44.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1554,2026-09-07T15:52:00+08:00,2.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1971,2026-09-07T15:57:00+08:00,29.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1575,2026-09-07T16:00:00+08:00,6.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1586,2026-09-07T16:06:00+08:00,48.0,二号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1524,2026-09-07T16:08:00+08:00,10.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1624,2026-09-07T16:08:00+08:00,25.0,二号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1835,2026-09-07T16:15:00+08:00,18.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+2085,2026-09-07T16:15:00+08:00,57.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1444,2026-09-07T16:19:00+08:00,62.0,水处理车间,0,holdout,1,1,telemetry_age_minutes >= 15
+1085,2026-09-07T16:22:00+08:00,42.0,二号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1507,2026-09-07T16:25:00+08:00,25.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+2071,2026-09-07T16:26:00+08:00,10.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1299,2026-09-07T16:37:00+08:00,1.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+2030,2026-09-07T16:40:00+08:00,6.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1905,2026-09-07T16:50:00+08:00,8.0,一号机组区,,holdout,0,,below_selected_age_threshold
+1981,2026-09-07T16:52:00+08:00,9.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1759,2026-09-07T16:53:00+08:00,1.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1207,2026-09-07T17:03:00+08:00,35.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+1650,2026-09-07T17:04:00+08:00,6.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1382,2026-09-07T17:13:00+08:00,6.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1850,2026-09-07T17:38:00+08:00,11.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1628,2026-09-07T17:41:00+08:00,12.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1055,2026-09-07T17:47:00+08:00,1.0,烟气净化区,,holdout,0,,below_selected_age_threshold
+1147,2026-09-07T17:47:00+08:00,54.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1528,2026-09-07T17:47:00+08:00,3.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1749,2026-09-07T17:49:00+08:00,10.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1001,2026-09-07T17:57:00+08:00,8.0,烟气净化区,0,holdout,0,0,below_selected_age_threshold
+1787,2026-09-07T18:02:00+08:00,5.0,水处理车间,,holdout,0,,below_selected_age_threshold
+2037,2026-09-07T18:05:00+08:00,32.0,一号机组区,,holdout,1,,telemetry_age_minutes >= 15
+1918,2026-09-07T18:09:00+08:00,13.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+2094,2026-09-07T18:19:00+08:00,5.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1462,2026-09-07T18:25:00+08:00,7.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1623,2026-09-07T18:34:00+08:00,9.0,输煤转运站,0,holdout,0,0,below_selected_age_threshold
+2002,2026-09-07T18:35:00+08:00,45.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1976,2026-09-07T18:36:00+08:00,8.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1038,2026-09-07T18:48:00+08:00,13.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1999,2026-09-07T18:48:00+08:00,11.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1756,2026-09-07T18:50:00+08:00,6.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1153,2026-09-07T18:51:00+08:00,2.0,输煤转运站,,holdout,0,,below_selected_age_threshold
+1757,2026-09-07T18:52:00+08:00,5.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1214,2026-09-07T18:54:00+08:00,31.0,一号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1458,2026-09-07T19:04:00+08:00,11.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1437,2026-09-07T19:06:00+08:00,53.0,一号机组区,,holdout,1,,telemetry_age_minutes >= 15
+1257,2026-09-07T19:27:00+08:00,52.0,一号机组区,0,holdout,1,1,telemetry_age_minutes >= 15
+1526,2026-09-07T19:37:00+08:00,43.0,输煤转运站,0,holdout,1,1,telemetry_age_minutes >= 15
+1168,2026-09-07T19:40:00+08:00,5.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
+1402,2026-09-07T19:45:00+08:00,8.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1472,2026-09-07T19:46:00+08:00,27.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1124,2026-09-07T19:55:00+08:00,0.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1533,2026-09-07T19:56:00+08:00,10.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1957,2026-09-07T19:56:00+08:00,34.0,水处理车间,1,holdout,1,0,telemetry_age_minutes >= 15
+1115,2026-09-07T19:58:00+08:00,41.0,二号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1635,2026-09-07T20:03:00+08:00,3.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1883,2026-09-07T20:06:00+08:00,6.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1308,2026-09-07T20:36:00+08:00,12.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1676,2026-09-07T20:48:00+08:00,31.0,一号机组区,1,holdout,1,0,telemetry_age_minutes >= 15
+1028,2026-09-07T21:03:00+08:00,6.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1172,2026-09-07T21:12:00+08:00,19.0,烟气净化区,1,holdout,1,0,telemetry_age_minutes >= 15
+2012,2026-09-07T21:22:00+08:00,0.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1569,2026-09-07T21:29:00+08:00,6.0,输煤转运站,1,holdout,0,0,below_selected_age_threshold
+1273,2026-09-07T21:30:00+08:00,11.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1542,2026-09-07T21:42:00+08:00,62.0,输煤转运站,1,holdout,1,0,telemetry_age_minutes >= 15
+1807,2026-09-07T21:42:00+08:00,4.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1442,2026-09-07T21:44:00+08:00,9.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1887,2026-09-07T21:44:00+08:00,0.0,烟气净化区,1,holdout,0,0,below_selected_age_threshold
+1057,2026-09-07T21:45:00+08:00,3.0,一号机组区,1,holdout,0,0,below_selected_age_threshold
+1204,2026-09-07T21:47:00+08:00,9.0,水处理车间,1,holdout,0,0,below_selected_age_threshold
+1084,2026-09-07T21:54:00+08:00,1.0,二号机组区,1,holdout,0,0,below_selected_age_threshold
